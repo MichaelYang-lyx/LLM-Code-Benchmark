@@ -1,3 +1,7 @@
+# ========= here is our gitignore patr  =========
+data/
+
+# ========= below is template of .gitignore file for Python  =========
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
