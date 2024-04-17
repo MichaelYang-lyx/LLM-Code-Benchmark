@@ -1,2 +1,3 @@
-# ========= here is our gitignore patr  =========
+# ========= here is our gitignore partr =========
 
+.env
