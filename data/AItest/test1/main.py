@@ -38,6 +38,6 @@ for epoch in range(epochs):
     
     if (epoch+1) % 10 == 0:
         print(f'Epoch {epoch+1}/{epochs}, Loss: {loss.item()}')
-print("最后的Loss:",loss.item())
+print("Final Loss:",loss.item())
 # 在训练循环结束后
 assert loss.item() < 2, "Loss is not less than 2"

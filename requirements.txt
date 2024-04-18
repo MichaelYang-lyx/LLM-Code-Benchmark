@@ -1,0 +1,4 @@
+zhipuai
+mmengine
+jieba
+dashscope

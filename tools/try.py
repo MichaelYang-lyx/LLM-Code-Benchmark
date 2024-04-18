@@ -1,15 +1,1 @@
-# 首先，你需要安装python-dotenv库，可以使用pip进行安装：
-# pip install python-dotenv
-
-# 导入所需的库
-from dotenv import load_dotenv
-import os
-
-# 加载.env文件
-load_dotenv()
-
-# 获取.env文件中的变量
-var = os.getenv('OPENAI_API_KEY')
-
-# 打印变量
-print(var)
+print("\u5bf9\u4e0d\u8d77\uff0c\u4f5c\u4e3a\u4e00\u4e2a\u4eba\u5de5\u667a\u80fd\uff0c\u6211\u65e0\u6cd5\u5373\u65f6\u63d0\u4f9b\u5b9e\u65f6\u5929\u6c14\u4fe1\u606f\u3002\u4f60\u53ef\u4ee5\u901a\u8fc7\u7f51\u4e0a\u7684\u6c14\u8c61\u7ad9\u6216\u8005\u624b\u673a\u4e0a\u7684\u5929\u6c14\u5e94\u7528\u6765\u67e5\u8be2\u6df1\u5733\u4eca\u5929\u7684\u5929\u6c14\u3002")
