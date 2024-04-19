@@ -108,3 +108,17 @@ Epoch [3/3], Step [300/500], Loss: 1.307066798210144
 Epoch [3/3], Step [400/500], Loss: 1.268039345741272
 Epoch [3/3], Step [500/500], Loss: 1.0652246475219727
 最后的Loss: 1.0652246475219727
+---------- Running  ./data/AItest/test1/main.py  ----------
+Epoch 10/100, Loss: 9.281566619873047
+Epoch 20/100, Loss: 5.479720115661621
+Epoch 30/100, Loss: 3.3153014183044434
+Epoch 40/100, Loss: 2.083080291748047
+Epoch 50/100, Loss: 1.381566047668457
+Epoch 60/100, Loss: 0.9821850061416626
+Epoch 70/100, Loss: 0.7548108100891113
+Epoch 80/100, Loss: 0.6253613829612732
+Epoch 90/100, Loss: 0.5516606569290161
+Epoch 100/100, Loss: 0.5096985697746277
+Final Loss: 0.5096985697746277
+---------- Running  ./data/AItest/test2/main.py  ----------
+Files already downloaded and verified

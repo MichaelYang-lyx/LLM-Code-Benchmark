@@ -74,22 +74,24 @@ def get_score(data_folder,output_dir):
 
 
 
-##===-------
+
 
 from models.openAI_api import OpenAI
 import json
 api = OpenAI()
 from components.Eval.BLEU import codebleu_score, code_postprocess
 
+
+
+# -------------------- infer ----------------------------
+
+
 base_prompt = '你是一个擅长补充代码的助手。\n请你根据题目要求来完善代码。' \
     '请记住，你必须在题目代码的框架下进行回答，需要包含框架并且最后输出是一整段完整代码(包含框架import内容)。\n' \
     '你只需关注代码部分,不需要关注环境配置等问题。请你以\'\'\'{language} {code}\'\'\'的格式回答。\n' \
     '[需要补充的代码框架]： {question}\n' \
 
-# -------------------- infer ----------------------------
 
-
-# -------------------- eval ----------------------------
 
 languages=[]
 questions=[]
@@ -102,13 +104,13 @@ def get_questions(json_file):
     for item in tqdm(data, desc="Infer"):
     # Print the question field
         prompt = base_prompt.format(language=item['language'], code='{you code here}',question=item['question'])
-        test_dir=os.path.join(TARGET_DIR, 'test'+str(item['question_id']),'t.py')
+        solution_path=os.path.join(TARGET_DIR, 'test'+str(item['question_id']),'solution.py')
         
         result=code_postprocess(api.generate(prompt))
-
-        # 把result输入test_dir
-        with open(test_dir, 'w') as f:
-            f.write(result)
+        # 没有才生成
+        if not os.path.exists(solution_path):
+            with open(solution_path, 'w') as f:
+                f.write(result)
 
         
 
@@ -117,10 +119,15 @@ get_questions(JSON_FILE)
 print(test_folders)
 ##---------
 
+# -------------------- eval ---------------------------- 
+
+for folder in tqdm(test_folders, desc="Eval", bar_format='{l_bar}{bar}| {n_fmt}/{total_fmt}'):
+    output_dir = os.path.join(THIS_DIR, 'output')
+    if not os.path.exists(output_dir):
+        os.makedirs(output_dir  )
+    score = get_score(folder,output_dir)
 
 
-# for folder in tqdm(test_folders, desc="Eval", bar_format='{l_bar}{bar}| {n_fmt}/{total_fmt}'):
-#     output_dir = os.path.join(THIS_DIR, 'output')
-#     if not os.path.exists(output_dir):
-#         os.makedirs(output_dir  )
-#     score = get_score(folder,output_dir)
+
+
+# -------------------- infer ----------------------------
