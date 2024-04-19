@@ -7,6 +7,8 @@ from components.Eval.BLEU import  codebleu_score
 
 THIS_DIR = './jobs/1AI_test_try'
 TARGET_DIR='./data/AItest'
+JSON_FILE=os.path.join(TARGET_DIR,'AI.json')
+
 # Get all subfolders in the current directory
 folders = [f.name for f in os.scandir(TARGET_DIR) if f.is_dir()]
 
@@ -85,35 +87,40 @@ base_prompt = '你是一个擅长补充代码的助手。\n请你根据题目要
     '[需要补充的代码框架]： {question}\n' \
 
 # -------------------- infer ----------------------------
-data_config={
-    'path':'./data/AItest/AI.json'
-}
+
 
 # -------------------- eval ----------------------------
 
 languages=[]
 questions=[]
-def get_questions(data_config):
+def get_questions(json_file):
     # Load the JSON file
-    with open(data_config['path'], 'r') as f:
+    with open(json_file, 'r') as f:
         data = json.load(f)
 
     # Iterate over all items in the data
     for item in tqdm(data, desc="Infer"):
-        # Print the question field
+    # Print the question field
         prompt = base_prompt.format(language=item['language'], code='{you code here}',question=item['question'])
-        result=api.generate(prompt)
-        print(code_postprocess(result))
+        test_dir=os.path.join(TARGET_DIR, 'test'+str(item['question_id']),'t.py')
+        
+        result=code_postprocess(api.generate(prompt))
+
+        # 把result输入test_dir
+        with open(test_dir, 'w') as f:
+            f.write(result)
+
+        
 
 # Call the function
-get_questions(data_config)
-
+get_questions(JSON_FILE)
+print(test_folders)
 ##---------
 
 
 
-for folder in tqdm(test_folders, desc="Eval", bar_format='{l_bar}{bar}| {n_fmt}/{total_fmt}'):
-    output_dir = os.path.join(THIS_DIR, 'output')
-    if not os.path.exists(output_dir):
-        os.makedirs(output_dir  )
-    score = get_score(folder,output_dir)
+# for folder in tqdm(test_folders, desc="Eval", bar_format='{l_bar}{bar}| {n_fmt}/{total_fmt}'):
+#     output_dir = os.path.join(THIS_DIR, 'output')
+#     if not os.path.exists(output_dir):
+#         os.makedirs(output_dir  )
+#     score = get_score(folder,output_dir)
