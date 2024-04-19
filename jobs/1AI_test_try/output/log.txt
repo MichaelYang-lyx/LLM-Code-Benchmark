@@ -1,0 +1,110 @@
+---------- Running  ./data/AItest/test1/main.py  ----------
+---------- Running  ./data/AItest/test2/main.py  ----------
+---------- Running  ./data/AItest/test1/main.py  ----------
+---------- Running  ./data/AItest/test2/main.py  ----------
+---------- Running  ./data/AItest/test1/main.py  ----------
+['./data/AItest/test1', '/workspace', '/opt/conda/lib/python310.zip', '/opt/conda/lib/python3.10', '/opt/conda/lib/python3.10/lib-dynload', '/opt/conda/lib/python3.10/site-packages']
+<_frozen_importlib_external.SourceFileLoader object at 0x7f4a596d2650>
+Epoch 10/100, Loss: 16.260555267333984
+Epoch 20/100, Loss: 9.468104362487793
+Epoch 30/100, Loss: 5.600968360900879
+Epoch 40/100, Loss: 3.3992321491241455
+Epoch 50/100, Loss: 2.145620584487915
+Epoch 60/100, Loss: 1.4317845106124878
+Epoch 70/100, Loss: 1.0252463817596436
+Epoch 80/100, Loss: 0.7936558127403259
+Epoch 90/100, Loss: 0.6616662740707397
+Epoch 100/100, Loss: 0.5863814949989319
+Final Loss: 0.5863814949989319
+---------- Running  ./data/AItest/test2/main.py  ----------
+['./data/AItest/test2', '/workspace', '/opt/conda/lib/python310.zip', '/opt/conda/lib/python3.10', '/opt/conda/lib/python3.10/lib-dynload', '/opt/conda/lib/python3.10/site-packages']
+<_frozen_importlib_external.SourceFileLoader object at 0x7f4a596d2770>
+---------- Running  ./data/AItest/test1/main.py  ----------
+['./data/AItest/test1', '/workspace', '/opt/conda/lib/python310.zip', '/opt/conda/lib/python3.10', '/opt/conda/lib/python3.10/lib-dynload', '/opt/conda/lib/python3.10/site-packages']
+<_frozen_importlib_external.SourceFileLoader object at 0x7f1cd9986650>
+Epoch 10/100, Loss: 9.236631393432617
+Epoch 20/100, Loss: 5.4537224769592285
+Epoch 30/100, Loss: 3.300088405609131
+Epoch 40/100, Loss: 2.074012041091919
+Epoch 50/100, Loss: 1.3759984970092773
+Epoch 60/100, Loss: 0.9786149859428406
+Epoch 70/100, Loss: 0.7523819208145142
+Epoch 80/100, Loss: 0.6235858201980591
+Epoch 90/100, Loss: 0.5502610802650452
+Epoch 100/100, Loss: 0.508516788482666
+Final Loss: 0.508516788482666
+---------- Running  ./data/AItest/test2/main.py  ----------
+['./data/AItest/test2', '/workspace', '/opt/conda/lib/python310.zip', '/opt/conda/lib/python3.10', '/opt/conda/lib/python3.10/lib-dynload', '/opt/conda/lib/python3.10/site-packages']
+<_frozen_importlib_external.SourceFileLoader object at 0x7f1cd9986770>
+---------- Running  ./data/AItest/test1/main.py  ----------
+['./data/AItest/test1', '/workspace', '/opt/conda/lib/python310.zip', '/opt/conda/lib/python3.10', '/opt/conda/lib/python3.10/lib-dynload', '/opt/conda/lib/python3.10/site-packages']
+---------- Running  ./data/AItest/test2/main.py  ----------
+['./data/AItest/test2', '/workspace', '/opt/conda/lib/python310.zip', '/opt/conda/lib/python3.10', '/opt/conda/lib/python3.10/lib-dynload', '/opt/conda/lib/python3.10/site-packages']
+---------- Running  ./data/AItest/test1/main.py  ----------
+['./data/AItest/test1', '/workspace', '/opt/conda/lib/python310.zip', '/opt/conda/lib/python3.10', '/opt/conda/lib/python3.10/lib-dynload', '/opt/conda/lib/python3.10/site-packages']
+---------- Running  ./data/AItest/test2/main.py  ----------
+['./data/AItest/test2', '/workspace', '/opt/conda/lib/python310.zip', '/opt/conda/lib/python3.10', '/opt/conda/lib/python3.10/lib-dynload', '/opt/conda/lib/python3.10/site-packages']
+---------- Running  ./data/AItest/test1/main.py  ----------
+['./data/AItest/test1', '/workspace', '/opt/conda/lib/python310.zip', '/opt/conda/lib/python3.10', '/opt/conda/lib/python3.10/lib-dynload', '/opt/conda/lib/python3.10/site-packages']
+---------- Running  ./data/AItest/test2/main.py  ----------
+['./data/AItest/test2', '/workspace', '/opt/conda/lib/python310.zip', '/opt/conda/lib/python3.10', '/opt/conda/lib/python3.10/lib-dynload', '/opt/conda/lib/python3.10/site-packages']
+---------- Running  ./data/AItest/test1/main.py  ----------
+Epoch 10/100, Loss: 11.00052261352539
+Epoch 20/100, Loss: 6.462559700012207
+Epoch 30/100, Loss: 3.879024028778076
+Epoch 40/100, Loss: 2.408156394958496
+Epoch 50/100, Loss: 1.5707380771636963
+Epoch 60/100, Loss: 1.0939466953277588
+Epoch 70/100, Loss: 0.8224628567695618
+Epoch 80/100, Loss: 0.6678622961044312
+Epoch 90/100, Loss: 0.5798037052154541
+Epoch 100/100, Loss: 0.5296289920806885
+Final Loss: 0.5296289920806885
+---------- Running  ./data/AItest/test2/main.py  ----------
+Files already downloaded and verified
+Epoch [1/3], Step [100/500], Loss: 1.762577772140503
+Epoch [1/3], Step [200/500], Loss: 1.536780834197998
+Epoch [1/3], Step [300/500], Loss: 1.563511848449707
+Epoch [1/3], Step [400/500], Loss: 1.5599464178085327
+Epoch [1/3], Step [500/500], Loss: 1.3892794847488403
+Epoch [2/3], Step [100/500], Loss: 1.4096159934997559
+Epoch [2/3], Step [200/500], Loss: 1.3975553512573242
+Epoch [2/3], Step [300/500], Loss: 1.3056296110153198
+Epoch [2/3], Step [400/500], Loss: 1.0833326578140259
+Epoch [2/3], Step [500/500], Loss: 1.1929653882980347
+Epoch [3/3], Step [100/500], Loss: 1.294814944267273
+Epoch [3/3], Step [200/500], Loss: 1.2958743572235107
+Epoch [3/3], Step [300/500], Loss: 1.2547351121902466
+Epoch [3/3], Step [400/500], Loss: 1.228560447692871
+Epoch [3/3], Step [500/500], Loss: 1.1643539667129517
+最后的Loss: 1.1643539667129517
+---------- Running  ./data/AItest/test1/main.py  ----------
+Epoch 10/100, Loss: 10.691868782043457
+Epoch 20/100, Loss: 6.284088134765625
+Epoch 30/100, Loss: 3.7746949195861816
+Epoch 40/100, Loss: 2.346062660217285
+Epoch 50/100, Loss: 1.5327162742614746
+Epoch 60/100, Loss: 1.0696548223495483
+Epoch 70/100, Loss: 0.8060124516487122
+Epoch 80/100, Loss: 0.6559019088745117
+Epoch 90/100, Loss: 0.5704255700111389
+Epoch 100/100, Loss: 0.5217455625534058
+Final Loss: 0.5217455625534058
+---------- Running  ./data/AItest/test2/main.py  ----------
+Files already downloaded and verified
+Epoch [1/3], Step [100/500], Loss: 1.7117209434509277
+Epoch [1/3], Step [200/500], Loss: 1.6115859746932983
+Epoch [1/3], Step [300/500], Loss: 1.6461303234100342
+Epoch [1/3], Step [400/500], Loss: 1.6508874893188477
+Epoch [1/3], Step [500/500], Loss: 1.4662741422653198
+Epoch [2/3], Step [100/500], Loss: 1.3605711460113525
+Epoch [2/3], Step [200/500], Loss: 1.1452128887176514
+Epoch [2/3], Step [300/500], Loss: 1.3933050632476807
+Epoch [2/3], Step [400/500], Loss: 1.184230089187622
+Epoch [2/3], Step [500/500], Loss: 1.3772741556167603
+Epoch [3/3], Step [100/500], Loss: 1.4431097507476807
+Epoch [3/3], Step [200/500], Loss: 1.371389627456665
+Epoch [3/3], Step [300/500], Loss: 1.307066798210144
+Epoch [3/3], Step [400/500], Loss: 1.268039345741272
+Epoch [3/3], Step [500/500], Loss: 1.0652246475219727
+最后的Loss: 1.0652246475219727

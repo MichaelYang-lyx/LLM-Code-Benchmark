@@ -1,7 +1,7 @@
 from models.openAI_api import OpenAI
 import json
 api = OpenAI()
-
+from components.Eval.BLEU import codebleu_score, code_postprocess
 
 base_prompt = '你是一个擅长补充代码的助手。\n请你根据题目要求来完善代码。' \
     '请记住，你必须在题目代码的框架下进行回答，需要包含框架并且最后输出是一整段完整代码(包含框架import内容)。\n' \
@@ -26,7 +26,8 @@ def get_questions(data_config):
     for item in data:
         # Print the question field
         prompt = base_prompt.format(language=item['language'], code='{you code here}',question=item['question'])
-        print(prompt)
+        result=api.generate(prompt)
+        print(code_postprocess(result))
 
 
 # Call the function

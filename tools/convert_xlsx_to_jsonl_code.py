@@ -103,6 +103,9 @@ class SubsetSampler:
             # 现在测试用
             with open(os.path.join(dir_path, file_name), 'w') as f:
                 f.write(reference)
+                
+            with open(os.path.join(dir_path, 'reference.txt'), 'w') as f:
+                f.write(reference)
 
             # Write the main content to a file
             with open(os.path.join(dir_path, 'main.py'), 'w') as f:

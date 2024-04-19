@@ -2,3 +2,6 @@ zhipuai
 mmengine
 jieba
 dashscope
+tiktoken
+openai
+codebleu
