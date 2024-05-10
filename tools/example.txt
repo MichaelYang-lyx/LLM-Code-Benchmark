@@ -1,0 +1,4 @@
+Hello World
+This is a simple example text file
+It contains several words
+This is another line in the file
