@@ -3,6 +3,7 @@ import torch.nn as nn
 import numpy as np
 from solution import LinearRegression
 
+
 def main():
     # 定义模型
     input_dim = 1  # 输入的维度
@@ -29,15 +30,15 @@ def main():
         # 前向传播
         outputs = model(x)
         loss = criterion(outputs, y)
-        
+
         # 反向传播和优化
         optimizer.zero_grad()
         loss.backward()
         optimizer.step()
-        
+
         if (epoch+1) % 10 == 0:
             print(f'Epoch {epoch+1}/{epochs}, Loss: {loss.item()}')
-    print("Final Loss:",loss.item())
+    print("Final Loss:", loss.item())
     # 在训练循环结束后
     assert loss.item() < 2, "Loss is not less than 2"
-    return 1
+    return 1.0

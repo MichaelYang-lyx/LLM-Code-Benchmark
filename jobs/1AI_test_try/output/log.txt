@@ -852,3 +852,423 @@ Epoch 80/100, Loss: 0.7587803602218628
 Epoch 90/100, Loss: 0.6272009015083313
 Epoch 100/100, Loss: 0.5522915720939636
 Final Loss: 0.5522915720939636
+---------- Running  ./data/AItest/test1/main.py  ----------
+Epoch 10/100, Loss: 20.078899383544922
+Epoch 20/100, Loss: 11.628161430358887
+Epoch 30/100, Loss: 6.817085266113281
+Epoch 40/100, Loss: 4.078091621398926
+Epoch 50/100, Loss: 2.5187480449676514
+Epoch 60/100, Loss: 1.6309869289398193
+Epoch 70/100, Loss: 1.125560998916626
+Epoch 80/100, Loss: 0.8378016352653503
+Epoch 90/100, Loss: 0.6739609837532043
+Epoch 100/100, Loss: 0.5806682705879211
+Final Loss: 0.5806682705879211
+---------- Running  ./data/AItest/test2/main.py  ----------
+Files already downloaded and verified
+---------- Running  ./data/AItest/test1/main.py  ----------
+Epoch 10/100, Loss: 17.419281005859375
+Epoch 20/100, Loss: 10.115494728088379
+Epoch 30/100, Loss: 5.957374572753906
+Epoch 40/100, Loss: 3.590097427368164
+Epoch 50/100, Loss: 2.242359161376953
+Epoch 60/100, Loss: 1.4750522375106812
+Epoch 70/100, Loss: 1.0381886959075928
+Epoch 80/100, Loss: 0.7894479036331177
+Epoch 90/100, Loss: 0.647807240486145
+Epoch 100/100, Loss: 0.567139744758606
+Final Loss: 0.567139744758606
+---------- Running  ./data/AItest/test2/main.py  ----------
+Files already downloaded and verified
+---------- Running  ./data/AItest/test1/main.py  ----------
+Epoch 10/100, Loss: 18.703601837158203
+Epoch 20/100, Loss: 10.843498229980469
+Epoch 30/100, Loss: 6.368693828582764
+Epoch 40/100, Loss: 3.8211581707000732
+Epoch 50/100, Loss: 2.3708295822143555
+Epoch 60/100, Loss: 1.5451463460922241
+Epoch 70/100, Loss: 1.0750774145126343
+Epoch 80/100, Loss: 0.8074626922607422
+Epoch 90/100, Loss: 0.6551060080528259
+Epoch 100/100, Loss: 0.5683666467666626
+Final Loss: 0.5683666467666626
+---------- Running  ./data/AItest/test2/main.py  ----------
+Files already downloaded and verified
+---------- Running  ./data/AItest/test1/main.py  ----------
+Epoch 10/100, Loss: 18.131343841552734
+Epoch 20/100, Loss: 10.522878646850586
+Epoch 30/100, Loss: 6.191281318664551
+Epoch 40/100, Loss: 3.7252261638641357
+Epoch 50/100, Loss: 2.321232795715332
+Epoch 60/100, Loss: 1.521881103515625
+Epoch 70/100, Loss: 1.0667541027069092
+Epoch 80/100, Loss: 0.8075984120368958
+Epoch 90/100, Loss: 0.6600094437599182
+Epoch 100/100, Loss: 0.5759373903274536
+Final Loss: 0.5759373903274536
+---------- Running  ./data/AItest/test2/main.py  ----------
+Files already downloaded and verified
+---------- Running  ./data/AItest/test1/main.py  ----------
+Epoch 10/100, Loss: 17.16588020324707
+Epoch 20/100, Loss: 9.979106903076172
+Epoch 30/100, Loss: 5.887524127960205
+Epoch 40/100, Loss: 3.5580527782440186
+Epoch 50/100, Loss: 2.2317638397216797
+Epoch 60/100, Loss: 1.4765920639038086
+Epoch 70/100, Loss: 1.0465632677078247
+Epoch 80/100, Loss: 0.8016406297683716
+Epoch 90/100, Loss: 0.6621010303497314
+Epoch 100/100, Loss: 0.5825582146644592
+Final Loss: 0.5825582146644592
+---------- Running  ./data/AItest/test2/main.py  ----------
+Files already downloaded and verified
+---------- Running  ./data/AItest/test1/main.py  ----------
+Epoch 10/100, Loss: 12.099321365356445
+Epoch 20/100, Loss: 7.08386754989624
+Epoch 30/100, Loss: 4.228534698486328
+Epoch 40/100, Loss: 2.6029739379882812
+Epoch 50/100, Loss: 1.6775274276733398
+Epoch 60/100, Loss: 1.150660753250122
+Epoch 70/100, Loss: 0.8507087826728821
+Epoch 80/100, Loss: 0.6799401640892029
+Epoch 90/100, Loss: 0.5827162861824036
+Epoch 100/100, Loss: 0.5273622870445251
+Final Loss: 0.5273622870445251
+---------- Running  ./data/AItest/test2/main.py  ----------
+Files already downloaded and verified
+---------- Running  ./data/AItest/test1/main.py  ----------
+Epoch 10/100, Loss: 19.478660583496094
+Epoch 20/100, Loss: 11.286174774169922
+Epoch 30/100, Loss: 6.62212610244751
+Epoch 40/100, Loss: 3.96683931350708
+Epoch 50/100, Loss: 2.4551522731781006
+Epoch 60/100, Loss: 1.5945237874984741
+Epoch 70/100, Loss: 1.1045476198196411
+Epoch 80/100, Loss: 0.8255860209465027
+Epoch 90/100, Loss: 0.6667565107345581
+Epoch 100/100, Loss: 0.5763192772865295
+Final Loss: 0.5763192772865295
+---------- Running  ./data/AItest/test2/main.py  ----------
+Files already downloaded and verified
+---------- Running  ./data/AItest/test1/main.py  ----------
+Epoch 10/100, Loss: 8.147562026977539
+Epoch 20/100, Loss: 4.834054470062256
+Epoch 30/100, Loss: 2.9476511478424072
+Epoch 40/100, Loss: 1.8737068176269531
+Epoch 50/100, Loss: 1.2622995376586914
+Epoch 60/100, Loss: 0.9142187833786011
+Epoch 70/100, Loss: 0.7160502672195435
+Epoch 80/100, Loss: 0.6032282710075378
+Epoch 90/100, Loss: 0.5389949083328247
+Epoch 100/100, Loss: 0.5024229884147644
+Final Loss: 0.5024229884147644
+---------- Running  ./data/AItest/test2/main.py  ----------
+Files already downloaded and verified
+---------- Running  ./data/AItest/test1/main.py  ----------
+Epoch 10/100, Loss: 12.880032539367676
+Epoch 20/100, Loss: 7.529504299163818
+Epoch 30/100, Loss: 4.483399868011475
+Epoch 40/100, Loss: 2.7492194175720215
+Epoch 50/100, Loss: 1.7619249820709229
+Epoch 60/100, Loss: 1.1998369693756104
+Epoch 70/100, Loss: 0.8798214197158813
+Epoch 80/100, Loss: 0.6976200938224792
+Epoch 90/100, Loss: 0.5938769578933716
+Epoch 100/100, Loss: 0.5348010659217834
+Final Loss: 0.5348010659217834
+---------- Running  ./data/AItest/test2/main.py  ----------
+Files already downloaded and verified
+---------- Running  ./data/AItest/test1/main.py  ----------
+Epoch 10/100, Loss: 14.023585319519043
+Epoch 20/100, Loss: 8.18986701965332
+Epoch 30/100, Loss: 4.868589878082275
+Epoch 40/100, Loss: 2.9776599407196045
+Epoch 50/100, Loss: 1.901037573814392
+Epoch 60/100, Loss: 1.2880067825317383
+Epoch 70/100, Loss: 0.9389022588729858
+Epoch 80/100, Loss: 0.7400532960891724
+Epoch 90/100, Loss: 0.6267464756965637
+Epoch 100/100, Loss: 0.5621405839920044
+Final Loss: 0.5621405839920044
+---------- Running  ./data/AItest/test2/main.py  ----------
+Files already downloaded and verified
+---------- Running  ./data/AItest/test1/main.py  ----------
+Epoch 10/100, Loss: 13.351171493530273
+Epoch 20/100, Loss: 7.798628807067871
+Epoch 30/100, Loss: 4.637509346008301
+Epoch 40/100, Loss: 2.8378396034240723
+Epoch 50/100, Loss: 1.813253402709961
+Epoch 60/100, Loss: 1.229926586151123
+Epoch 70/100, Loss: 0.8978114128112793
+Epoch 80/100, Loss: 0.7087124586105347
+Epoch 90/100, Loss: 0.6010344624519348
+Epoch 100/100, Loss: 0.5397099852561951
+Final Loss: 0.5397099852561951
+---------- Running  ./data/AItest/test2/main.py  ----------
+Files already downloaded and verified
+---------- Running  ./data/AItest/test2/main.py  ----------
+Files already downloaded and verified
+---------- Running  ./data/AItest/test1/main.py  ----------
+Epoch 10/100, Loss: 13.321721076965332
+Epoch 20/100, Loss: 7.779507637023926
+Epoch 30/100, Loss: 4.624289512634277
+Epoch 40/100, Loss: 2.8280036449432373
+Epoch 50/100, Loss: 1.8053655624389648
+Epoch 60/100, Loss: 1.2231700420379639
+Epoch 70/100, Loss: 0.8917213678359985
+Epoch 80/100, Loss: 0.7030245065689087
+Epoch 90/100, Loss: 0.5955968499183655
+Epoch 100/100, Loss: 0.5344363451004028
+Final Loss: 0.5344363451004028
+---------- Running  ./data/AItest/test1/main.py  ----------
+Epoch 10/100, Loss: 10.820267677307129
+Epoch 20/100, Loss: 6.355818748474121
+Epoch 30/100, Loss: 3.8141746520996094
+Epoch 40/100, Loss: 2.3671975135803223
+Epoch 50/100, Loss: 1.5434192419052124
+Epoch 60/100, Loss: 1.0744316577911377
+Epoch 70/100, Loss: 0.8074288368225098
+Epoch 80/100, Loss: 0.6554177403450012
+Epoch 90/100, Loss: 0.5688717365264893
+Epoch 100/100, Loss: 0.5195955038070679
+Final Loss: 0.5195955038070679
+---------- Running  ./data/AItest/test2/main.py  ----------
+Files already downloaded and verified
+---------- Running  ./data/AItest/test1/main.py  ----------
+Epoch 10/100, Loss: 9.30152416229248
+Epoch 20/100, Loss: 5.494568824768066
+Epoch 30/100, Loss: 3.3272061347961426
+Epoch 40/100, Loss: 2.093276262283325
+Epoch 50/100, Loss: 1.3907543420791626
+Epoch 60/100, Loss: 0.9907670021057129
+Epoch 70/100, Loss: 0.76301509141922
+Epoch 80/100, Loss: 0.633318305015564
+Epoch 90/100, Loss: 0.5594446063041687
+Epoch 100/100, Loss: 0.5173522233963013
+Final Loss: 0.5173522233963013
+---------- Running  ./data/AItest/test2/main.py  ----------
+Files already downloaded and verified
+---------- Running  ./data/AItest/test1/main.py  ----------
+Epoch 10/100, Loss: 6.967858791351318
+Epoch 20/100, Loss: 4.1621904373168945
+Epoch 30/100, Loss: 2.564906358718872
+Epoch 40/100, Loss: 1.6555612087249756
+Epoch 50/100, Loss: 1.1378633975982666
+Epoch 60/100, Loss: 0.8431340456008911
+Epoch 70/100, Loss: 0.6753417253494263
+Epoch 80/100, Loss: 0.5798154473304749
+Epoch 90/100, Loss: 0.5254305601119995
+Epoch 100/100, Loss: 0.4944678246974945
+Final Loss: 0.4944678246974945
+---------- Running  ./data/AItest/test2/main.py  ----------
+Files already downloaded and verified
+---------- Running  ./data/AItest/test1/main.py  ----------
+Epoch 10/100, Loss: 13.560335159301758
+Epoch 20/100, Loss: 7.91677713394165
+Epoch 30/100, Loss: 4.703850746154785
+Epoch 40/100, Loss: 2.8746960163116455
+Epoch 50/100, Loss: 1.8333323001861572
+Epoch 60/100, Loss: 1.2404625415802002
+Epoch 70/100, Loss: 0.9029239416122437
+Epoch 80/100, Loss: 0.7107463479042053
+Epoch 90/100, Loss: 0.6013240814208984
+Epoch 100/100, Loss: 0.539014995098114
+Final Loss: 0.539014995098114
+---------- Running  ./data/AItest/test2/main.py  ----------
+Files already downloaded and verified
+---------- Running  ./data/AItest/test1/main.py  ----------
+Epoch 10/100, Loss: 16.33329963684082
+Epoch 20/100, Loss: 9.494619369506836
+Epoch 30/100, Loss: 5.601308822631836
+Epoch 40/100, Loss: 3.3848166465759277
+Epoch 50/100, Loss: 2.1229472160339355
+Epoch 60/100, Loss: 1.4045497179031372
+Epoch 70/100, Loss: 0.9955549240112305
+Epoch 80/100, Loss: 0.7627049684524536
+Epoch 90/100, Loss: 0.6301345825195312
+Epoch 100/100, Loss: 0.5546548962593079
+Final Loss: 0.5546548962593079
+---------- Running  ./data/AItest/test2/main.py  ----------
+Files already downloaded and verified
+---------- Running  ./data/AItest/test1/main.py  ----------
+Epoch 10/100, Loss: 9.63943862915039
+Epoch 20/100, Loss: 5.6834235191345215
+Epoch 30/100, Loss: 3.431236982345581
+Epoch 40/100, Loss: 2.149049997329712
+Epoch 50/100, Loss: 1.41908860206604
+Epoch 60/100, Loss: 1.0035135746002197
+Epoch 70/100, Loss: 0.7669203281402588
+Epoch 80/100, Loss: 0.6322225332260132
+Epoch 90/100, Loss: 0.5555342435836792
+Epoch 100/100, Loss: 0.5118715167045593
+Final Loss: 0.5118715167045593
+---------- Running  ./data/AItest/test2/main.py  ----------
+Files already downloaded and verified
+---------- Running  ./data/AItest/test1/main.py  ----------
+Epoch 10/100, Loss: 13.078390121459961
+Epoch 20/100, Loss: 7.640832424163818
+Epoch 30/100, Loss: 4.545197486877441
+Epoch 40/100, Loss: 2.7828335762023926
+Epoch 50/100, Loss: 1.779508352279663
+Epoch 60/100, Loss: 1.2083104848861694
+Epoch 70/100, Loss: 0.8831239938735962
+Epoch 80/100, Loss: 0.6979930996894836
+Epoch 90/100, Loss: 0.5925971269607544
+Epoch 100/100, Loss: 0.5325945615768433
+Final Loss: 0.5325945615768433
+---------- Running  ./data/AItest/test2/main.py  ----------
+Files already downloaded and verified
+---------- Running  ./data/AItest/test1/main.py  ----------
+Epoch 10/100, Loss: 9.682354927062988
+Epoch 20/100, Loss: 5.707643985748291
+Epoch 30/100, Loss: 3.4448139667510986
+Epoch 40/100, Loss: 2.1565701961517334
+Epoch 50/100, Loss: 1.4231630563735962
+Epoch 60/100, Loss: 1.0056281089782715
+Epoch 70/100, Loss: 0.7679216265678406
+Epoch 80/100, Loss: 0.6325914859771729
+Epoch 90/100, Loss: 0.555545449256897
+Epoch 100/100, Loss: 0.511681079864502
+Final Loss: 0.511681079864502
+---------- Running  ./data/AItest/test2/main.py  ----------
+Files already downloaded and verified
+---------- Running  ./data/AItest/test1/main.py  ----------
+Epoch 10/100, Loss: 11.307172775268555
+Epoch 20/100, Loss: 6.640505313873291
+Epoch 30/100, Loss: 3.9836649894714355
+Epoch 40/100, Loss: 2.471031904220581
+Epoch 50/100, Loss: 1.6098028421401978
+Epoch 60/100, Loss: 1.1194236278533936
+Epoch 70/100, Loss: 0.8401725888252258
+Epoch 80/100, Loss: 0.681118905544281
+Epoch 90/100, Loss: 0.590494692325592
+Epoch 100/100, Loss: 0.5388287305831909
+Final Loss: 0.5388287305831909
+---------- Running  ./data/AItest/test2/main.py  ----------
+Files already downloaded and verified
+---------- Running  ./data/AItest/test1/main.py  ----------
+Epoch 10/100, Loss: 15.474615097045898
+Epoch 20/100, Loss: 9.005266189575195
+Epoch 30/100, Loss: 5.322220325469971
+Epoch 40/100, Loss: 3.225440263748169
+Epoch 50/100, Loss: 2.031726598739624
+Epoch 60/100, Loss: 1.3521357774734497
+Epoch 70/100, Loss: 0.9652387499809265
+Epoch 80/100, Loss: 0.7449737191200256
+Epoch 90/100, Loss: 0.6195732355117798
+Epoch 100/100, Loss: 0.5481796860694885
+Final Loss: 0.5481796860694885
+---------- Running  ./data/AItest/test2/main.py  ----------
+Files already downloaded and verified
+---------- Running  ./data/AItest/test1/main.py  ----------
+Epoch 10/100, Loss: 16.145713806152344
+Epoch 20/100, Loss: 9.392545700073242
+Epoch 30/100, Loss: 5.547874450683594
+Epoch 40/100, Loss: 3.3590266704559326
+Epoch 50/100, Loss: 2.1128501892089844
+Epoch 60/100, Loss: 1.4033429622650146
+Epoch 70/100, Loss: 0.9993640184402466
+Epoch 80/100, Loss: 0.7693260312080383
+Epoch 90/100, Loss: 0.6383132338523865
+Epoch 100/100, Loss: 0.563677191734314
+Final Loss: 0.563677191734314
+---------- Running  ./data/AItest/test2/main.py  ----------
+Files already downloaded and verified
+---------- Running  ./data/AItest/test1/main.py  ----------
+Epoch 10/100, Loss: 8.052955627441406
+Epoch 20/100, Loss: 4.7800092697143555
+Epoch 30/100, Loss: 2.916699171066284
+Epoch 40/100, Loss: 1.8559036254882812
+Epoch 50/100, Loss: 1.251984715461731
+Epoch 60/100, Loss: 0.9081681966781616
+Epoch 70/100, Loss: 0.7124298214912415
+Epoch 80/100, Loss: 0.6009929776191711
+Epoch 90/100, Loss: 0.5375491380691528
+Epoch 100/100, Loss: 0.5014286637306213
+Final Loss: 0.5014286637306213
+---------- Running  ./data/AItest/test2/main.py  ----------
+Files already downloaded and verified
+---------- Running  ./data/AItest/test1/main.py  ----------
+Epoch 10/100, Loss: 15.451591491699219
+Epoch 20/100, Loss: 9.00127124786377
+Epoch 30/100, Loss: 5.328970432281494
+Epoch 40/100, Loss: 3.238217830657959
+Epoch 50/100, Loss: 2.047849178314209
+Epoch 60/100, Loss: 1.3700765371322632
+Epoch 70/100, Loss: 0.9841292500495911
+Epoch 80/100, Loss: 0.7643201351165771
+Epoch 90/100, Loss: 0.6390949487686157
+Epoch 100/100, Loss: 0.5677183866500854
+Final Loss: 0.5677183866500854
+---------- Running  ./data/AItest/test2/main.py  ----------
+Files already downloaded and verified
+---------- Running  ./data/AItest/test1/main.py  ----------
+Epoch 10/100, Loss: 19.140377044677734
+Epoch 20/100, Loss: 11.092440605163574
+Epoch 30/100, Loss: 6.510697364807129
+Epoch 40/100, Loss: 3.902278184890747
+Epoch 50/100, Loss: 2.417285203933716
+Epoch 60/100, Loss: 1.5718647241592407
+Epoch 70/100, Loss: 1.0905578136444092
+Epoch 80/100, Loss: 0.8165416717529297
+Epoch 90/100, Loss: 0.6605380773544312
+Epoch 100/100, Loss: 0.5717198848724365
+Final Loss: 0.5717198848724365
+---------- Running  ./data/AItest/test2/main.py  ----------
+Files already downloaded and verified
+---------- Running  ./data/AItest/test1/main.py  ----------
+Epoch 10/100, Loss: 12.808481216430664
+Epoch 20/100, Loss: 7.488067626953125
+Epoch 30/100, Loss: 4.459115982055664
+Epoch 40/100, Loss: 2.734706401824951
+Epoch 50/100, Loss: 1.752981185913086
+Epoch 60/100, Loss: 1.1940696239471436
+Epoch 70/100, Loss: 0.8758694529533386
+Epoch 80/100, Loss: 0.6947079300880432
+Epoch 90/100, Loss: 0.5915632843971252
+Epoch 100/100, Loss: 0.5328344106674194
+Final Loss: 0.5328344106674194
+---------- Running  ./data/AItest/test2/main.py  ----------
+Files already downloaded and verified
+---------- Running  ./data/AItest/test1/main.py  ----------
+Epoch 10/100, Loss: 16.605987548828125
+Epoch 20/100, Loss: 9.649333000183105
+Epoch 30/100, Loss: 5.688865661621094
+Epoch 40/100, Loss: 3.4341444969177246
+Epoch 50/100, Loss: 2.1505160331726074
+Epoch 60/100, Loss: 1.4197365045547485
+Epoch 70/100, Loss: 1.003697156906128
+Epoch 80/100, Loss: 0.7668415904045105
+Epoch 90/100, Loss: 0.6319960355758667
+Epoch 100/100, Loss: 0.5552257299423218
+Final Loss: 0.5552257299423218
+---------- Running  ./data/AItest/test2/main.py  ----------
+Files already downloaded and verified
+---------- Running  ./data/AItest/test2/main.py  ----------
+Files already downloaded and verified
+---------- Running  ./data/AItest/test1/main.py  ----------
+Epoch 10/100, Loss: 18.625795364379883
+Epoch 20/100, Loss: 10.803167343139648
+Epoch 30/100, Loss: 6.349661827087402
+Epoch 40/100, Loss: 3.8142123222351074
+Epoch 50/100, Loss: 2.3707261085510254
+Epoch 60/100, Loss: 1.5489002466201782
+Epoch 70/100, Loss: 1.080991506576538
+Epoch 80/100, Loss: 0.814568817615509
+Epoch 90/100, Loss: 0.6628552675247192
+Epoch 100/100, Loss: 0.5764452815055847
+Final Loss: 0.5764452815055847
+---------- Running  ./data/AItest/test1/main.py  ----------
+Epoch 10/100, Loss: 7.5272393226623535
+Epoch 20/100, Loss: 4.480844497680664
+Epoch 30/100, Loss: 2.7465102672576904
+Epoch 40/100, Loss: 1.7591397762298584
+Epoch 50/100, Loss: 1.197021245956421
+Epoch 60/100, Loss: 0.8770009279251099
+Epoch 70/100, Loss: 0.6948083639144897
+Epoch 80/100, Loss: 0.5910822153091431
+Epoch 90/100, Loss: 0.5320273637771606
+Epoch 100/100, Loss: 0.4984040856361389
+Final Loss: 0.4984040856361389
+---------- Running  ./data/AItest/test2/main.py  ----------
+Files already downloaded and verified

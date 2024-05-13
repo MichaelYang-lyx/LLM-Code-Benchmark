@@ -151,14 +151,9 @@ num_folders = result_rdd.count()
 
 # 计算平均分数
 average_score = total_score / num_folders
-print(OUTPUT_DIR)
-print(result_rdd.collect())
+print('result:', result_rdd.collect())
 print("Average score: ", average_score)
 # 将 RDD 转换为 DataFrame
 result_df = result_rdd.toDF()
-
-# 将 DataFrame 转换为 Pandas DataFrame
 pandas_df = result_df.toPandas()
-
-# 保存为 Excel 文件
 pandas_df.to_excel(os.path.join(OUTPUT_DIR, 'summary.xlsx'), index=False)

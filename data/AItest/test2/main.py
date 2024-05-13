@@ -3,6 +3,8 @@ import torch.nn as nn
 import torchvision
 import torchvision.transforms as transforms
 from solution import ImageClassifier
+
+
 def main():
     # 定义超参数
     input_size = 3  # 输入的维度（对于彩色图像，通常是3）
@@ -13,8 +15,10 @@ def main():
 
     # 加载CIFAR-10数据集
     transform = transforms.Compose([transforms.ToTensor()])
-    train_dataset = torchvision.datasets.CIFAR10(root='./data/AItest/data', train=True, download=True, transform=transform)
-    train_loader = torch.utils.data.DataLoader(train_dataset, batch_size=batch_size, shuffle=True)
+    train_dataset = torchvision.datasets.CIFAR10(
+        root='./data/AItest/data', train=True, download=True, transform=transform)
+    train_loader = torch.utils.data.DataLoader(
+        train_dataset, batch_size=batch_size, shuffle=True)
 
     # 定义模型
     model = ImageClassifier(input_size, num_classes)
@@ -29,14 +33,15 @@ def main():
             # 前向传播
             outputs = model(images)
             loss = criterion(outputs, labels)
-            
+
             # 反向传播和优化
             optimizer.zero_grad()
             loss.backward()
             optimizer.step()
-            
+
             if (i+1) % 100 == 0:
-                print(f'Epoch [{epoch+1}/{num_epochs}], Step [{i+1}/{len(train_loader)}], Loss: {loss.item()}')
-    print("最后的Loss:",loss.item())
+                print(
+                    f'Epoch [{epoch+1}/{num_epochs}], Step [{i+1}/{len(train_loader)}], Loss: {loss.item()}')
+    print("最后的Loss:", loss.item())
     assert loss.item() < 2, "Loss is not less than 2"
-    return 1
+    return 1.0
