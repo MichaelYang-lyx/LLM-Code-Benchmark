@@ -12,8 +12,6 @@ exit
 EOF
 
 
-
-
 # 删除容器
 docker stop AITest
 docker rm AITest

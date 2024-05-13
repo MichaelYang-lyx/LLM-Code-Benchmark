@@ -12,5 +12,9 @@ RUN pip install tiktoken
 RUN pip install zhipuai
 RUN pip install mmengine
 RUN pip install jieba
+RUN pip install pyspark
 RUN pip install python-dotenv
 
+# sudo add-apt-repository ppa:webupd8team/java
+# sudo apt-get update
+# sudo apt-get install oracle-java8-installer
