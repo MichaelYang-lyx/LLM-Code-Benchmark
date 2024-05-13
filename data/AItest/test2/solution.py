@@ -11,16 +11,10 @@ class ImageClassifier(nn.Module):
         self.fc = nn.Linear(32*32*32, num_classes)
 
     def forward(self, x):
-        """
-        输入:
-        - x: 一个形状为(batch_size, input_size, height, width)的PyTorch张量。
-
-        输出:
-        - out: 一个形状为(batch_size, num_classes)的PyTorch张量，表示图像分类模型的输出。
-        """
+        
         out = self.conv(x)
-        out = torch.relu(out)
-        out = torch.nn.functional.avg_pool2d(out, kernel_size=out.shape[2])
+        out = nn.functional.relu(out)
+        out = nn.functional.avg_pool2d(out, 2)
         out = out.view(out.size(0), -1)
         out = self.fc(out)
         return out
