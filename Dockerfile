@@ -32,7 +32,8 @@ RUN pip install pandas
 RUN pip install openpyxl
 RUN pip install pyspark
 RUN pip install python-dotenv
-
+RUN pip install langchain
+RUN pip install langchain_openai
 # sudo add-apt-repository ppa:webupd8team/java
 # sudo apt-get update
 # sudo apt-get install oracle-java8-installer
