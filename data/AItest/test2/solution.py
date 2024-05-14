@@ -1,4 +1,4 @@
-
+python
 import torch
 import torch.nn as nn
 import torchvision
@@ -11,10 +11,9 @@ class ImageClassifier(nn.Module):
         self.fc = nn.Linear(32*32*32, num_classes)
 
     def forward(self, x):
-        
         out = self.conv(x)
-        out = nn.functional.relu(out)
-        out = nn.functional.avg_pool2d(out, 2)
+        out = nn.ReLU()(out)
+        out = nn.AvgPool2d(kernel_size=2, stride=2)(out)
         out = out.view(out.size(0), -1)
         out = self.fc(out)
         return out
