@@ -7,7 +7,7 @@ import os
 from operator import add
 from components.Infer.code_post_process import code_postprocess
 import json
-from models.wenxin_api import Wenxin
+from models.zhipu_api import Zhipu
 
 from components.Eval.ScoreCalculator import ScoreCalculator
 
@@ -21,7 +21,7 @@ spark = SparkSession(sc)
 # =====
 
 
-THIS_DIR = './jobs/1AI_test_try'
+THIS_DIR = './jobs/Zhipu_general'
 TARGET_DIR = './data/AItest'
 JSON_FILE = os.path.join(TARGET_DIR, 'AI.json')
 OUTPUT_DIR = os.path.join(THIS_DIR, 'output')
@@ -39,7 +39,7 @@ test_folders = [folder for folder in folders if folder.startswith('test')]
 # -------------------- infer ----------------------------
 base_prompt = '你是一个擅长补充代码的助手。\n请你根据题目要求来完善代码。' \
     '请记住，你必须在题目代码的框架下进行回答，需要包含框架并且最后输出是一整段完整代码(包含框架import内容)。\n' \
-    '你只需关注代码部分,不需要关注环境配置等问题。请你以\'\'\'{language} {code}\'\'\'的格式回答。\n' \
+    '你只需关注代码部分,不需要关注环境配置等问题。请你以\'\'\'{language} {{code}}\'\'\'的格式回答。\n' \
     '[需要补充的代码框架]： {question}\n' \
 
 
@@ -53,7 +53,7 @@ def infer(item):
 
     # 没有才生成
     if not os.path.exists(solution_path):
-        api = Wenxin()
+        api = Zhipu()
         result = code_postprocess(api.generate(prompt))
         with open(solution_path, 'w') as f:
             f.write(result)

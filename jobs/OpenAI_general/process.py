@@ -1,4 +1,4 @@
-from components.Infer.InferenceEngine import code_postprocess
+from components.Infer.code_post_process import code_postprocess
 from components.Eval.BLEU import codebleu_score
 import json
 from models.openAI_api import OpenAI
@@ -9,7 +9,7 @@ from tqdm import tqdm
 import contextlib
 from components.Eval.BLEU import codebleu_score
 
-THIS_DIR = './jobs/1AI_test_try'
+THIS_DIR = './jobs/OpenAI_general'
 TARGET_DIR = './data/AItest'
 JSON_FILE = os.path.join(TARGET_DIR, 'AI.json')
 

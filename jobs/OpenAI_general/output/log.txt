@@ -1851,3 +1851,16 @@ Epoch 90/100, Loss: 0.6001899242401123
 Epoch 100/100, Loss: 0.5386468172073364
 Final Loss: 0.5386468172073364
 ---------- Running  ./data/AItest/test2/main.py  ----------
+---------- Running  ./data/AItest/test2/main.py  ----------
+---------- Running  ./data/AItest/test1/main.py  ----------
+Epoch 10/100, Loss: 15.0192232131958
+Epoch 20/100, Loss: 8.74683666229248
+Epoch 30/100, Loss: 5.175919532775879
+Epoch 40/100, Loss: 3.1429643630981445
+Epoch 50/100, Loss: 1.9855808019638062
+Epoch 60/100, Loss: 1.3266651630401611
+Epoch 70/100, Loss: 0.9515293836593628
+Epoch 80/100, Loss: 0.7379524111747742
+Epoch 90/100, Loss: 0.6163526773452759
+Epoch 100/100, Loss: 0.5471147298812866
+Final Loss: 0.5471147298812866

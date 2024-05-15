@@ -1,0 +1,27 @@
+---------- Running  ./data/AItest/test1/main.py  ----------
+---------- Running  ./data/AItest/test2/main.py  ----------
+Files already downloaded and verified
+---------- Running  ./data/AItest/test1/main.py  ----------
+---------- Running  ./data/AItest/test2/main.py  ----------
+Files already downloaded and verified
+---------- Running  ./data/AItest/test1/main.py  ----------
+---------- Running  ./data/AItest/test2/main.py  ----------
+Files already downloaded and verified
+---------- Running  ./data/AItest/test2/main.py  ----------
+Files already downloaded and verified
+---------- Running  ./data/AItest/test1/main.py  ----------
+---------- Running  ./data/AItest/test1/main.py  ----------
+---------- Running  ./data/AItest/test2/main.py  ----------
+Files already downloaded and verified
+---------- Running  ./data/AItest/test1/main.py  ----------
+Epoch 10/100, Loss: 11.869840621948242
+Epoch 20/100, Loss: 6.955159664154053
+Epoch 30/100, Loss: 4.157179355621338
+Epoch 40/100, Loss: 2.5642502307891846
+Epoch 50/100, Loss: 1.6573617458343506
+Epoch 60/100, Loss: 1.141042947769165
+Epoch 70/100, Loss: 0.8470773696899414
+Epoch 80/100, Loss: 0.6796989440917969
+Epoch 90/100, Loss: 0.5843874216079712
+Epoch 100/100, Loss: 0.5301043391227722
+Final Loss: 0.5301043391227722

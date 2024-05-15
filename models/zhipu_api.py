@@ -3,7 +3,8 @@ from langchain import PromptTemplate
 from langchain_openai import ChatOpenAI
 from dotenv import load_dotenv
 
-class zhipuAI:
+
+class Zhipu:
     def __init__(self):
         load_dotenv()
         self.llm = ChatOpenAI(
