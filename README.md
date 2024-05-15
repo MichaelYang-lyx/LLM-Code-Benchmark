@@ -13,7 +13,7 @@ Our evaluation system encompasses three primary steps to ensure a comprehensive 
 
 ## Framework
 
-<img src="public/imgs/framework.png" align="center" width="500" height="400">
+<img src="public/imgs/framework.png" align="center" width="800" height="400">
 
 ## Getting Started
 
