@@ -1,4 +1,3 @@
-import os
 import re
 
 
@@ -27,25 +26,3 @@ def code_postprocess(text: str, language: str = 'python') -> str:
     return text
 
 
-class InferenceEngine:
-    def __init__(self, target_dir, base_prompt, api):
-        self.target_dir = target_dir
-        self.base_prompt = base_prompt
-        self.api = api
-        from models.openAI_api import OpenAI
-        self.api = OpenAI()
-
-    def infer(self, item):
-
-        prompt = self.base_prompt.format(
-            language=item['language'], code='{you code here}', question=item['question'])
-        solution_path = os.path.join(
-            self.target_dir, 'test'+str(item['question_id']), 'solution.py')
-        print('---------------------------', self.api)
-        print('---------------------------', os.getenv("OPENAI_API_KEY"))
-        # 没有才生成
-        if not os.path.exists(solution_path):
-            result = code_postprocess(self.api.generate(prompt))
-            with open(solution_path, 'w') as f:
-                f.write(result)
-        return solution_path

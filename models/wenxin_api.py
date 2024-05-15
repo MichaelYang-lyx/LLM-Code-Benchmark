@@ -5,7 +5,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-class WenxinAI:
+class Wenxin:
     def __init__(self):
         self.api_key = 'DwR2IFbML8YoLEUGMdYfnRGa'
         self.secret_key = os.getenv("BAIDU_SECRET_KEY")
