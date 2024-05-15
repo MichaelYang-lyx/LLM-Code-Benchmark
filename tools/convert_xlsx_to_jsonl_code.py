@@ -92,17 +92,9 @@ class SubsetSampler:
             dir_path = os.path.join(output_dir, 'test' + str(question_id))
             os.makedirs(dir_path, exist_ok=True)
 
-            # Write the question to a file
-            # with open(os.path.join(dir_path, file_name), 'w') as f:
-            #     f.write(question)
-
-            # # Write the reference to a file
-            # with open(os.path.join(dir_path, 'reference.txt'), 'w') as f:
-            #     f.write(reference)
-
             # 现在测试用
-            with open(os.path.join(dir_path, file_name), 'w') as f:
-                f.write(reference)
+            # with open(os.path.join(dir_path, file_name), 'w') as f:
+            #     f.write(reference)
                 
             with open(os.path.join(dir_path, 'reference.txt'), 'w') as f:
                 f.write(reference)
