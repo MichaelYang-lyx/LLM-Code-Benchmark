@@ -40,7 +40,7 @@ response = openai.chat.completions.create(
   messages=[
       {
           "role": "user",
-          "content": "今天深圳天气怎么样", 
+          "content": "世界上最高的山", 
       }
   ],
 )

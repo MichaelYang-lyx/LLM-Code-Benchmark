@@ -42,9 +42,8 @@ test_folders = [folder for folder in folders if folder.startswith('test')]
 #    '[需要补充的代码框架]： {question}\n' \
 base_prompt = 'You are an assistant proficient in completing code.\nPlease enhance the code according to the given requirements.' \
     'Remember, you must answer within the framework of the given code, including the framework and outputting a complete code snippet (including import statements).\n' \
-    'You should only focus on the code part and ignore environment configuration issues. Please respond in the format \'\'\'{language} {{code}}\'\'\'.\n' \
+    'You should only focus on the code part and ignore environment configuration issues. Please respond in the format ```{language} {{code}}```.\n' \
     '[Code framework to be completed]: {question}\n'
-
 
 
 def infer(item):

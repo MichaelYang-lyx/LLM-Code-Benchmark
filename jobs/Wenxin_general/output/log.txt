@@ -133,3 +133,1456 @@ Epoch 80/100, Loss: 0.6388894319534302
 Epoch 90/100, Loss: 0.5614885687828064
 Epoch 100/100, Loss: 0.51739901304245
 Final Loss: 0.51739901304245
+---------- Running  ./data/AItest/test16/main.py  ----------
+---------- Running  ./data/AItest/test142/main.py  ----------
+---------- Running  ./data/AItest/test126/main.py  ----------
+NO
+YES
+YES
+---------- Running  ./data/AItest/test75/main.py  ----------
+---------- Running  ./data/AItest/test96/main.py  ----------
+---------- Running  ./data/AItest/test42/main.py  ----------
+[2, 3, 4]
+[6, 4, 6, 3, 4, 4, 10, 1, 124]
+---------- Running  ./data/AItest/test151/main.py  ----------
+[0, 0, 0, 0, 3, 3]
+[4, 4, 1, 0, 0, 6]
+---------- Running  ./data/AItest/test125/main.py  ----------
+---------- Running  ./data/AItest/test33/main.py  ----------
+---------- Running  ./data/AItest/test14/main.py  ----------
+---------- Running  ./data/AItest/test29/main.py  ----------
+---------- Running  ./data/AItest/test21/main.py  ----------
+---------- Running  ./data/AItest/test153/main.py  ----------
+False
+True
+False
+True
+False
+True
+---------- Running  ./data/AItest/test11/main.py  ----------
+---------- Running  ./data/AItest/test34/main.py  ----------
+[1, 2, 3]
+[2, 6, 3, 4, 8, 9, 2]
+---------- Running  ./data/AItest/test13/main.py  ----------
+---------- Running  ./data/AItest/test159/main.py  ----------
+15
+---------- Running  ./data/AItest/test152/main.py  ----------
+Slices.SErviNGSliCes
+my_class.AA
+---------- Running  ./data/AItest/test156/main.py  ----------
+---------- Running  ./data/AItest/test154/main.py  ----------
+---------- Running  ./data/AItest/test81/main.py  ----------
+True
+True
+True
+False
+---------- Running  ./data/AItest/test23/main.py  ----------
+---------- Running  ./data/AItest/test27/main.py  ----------
+---------- Running  ./data/AItest/test9/main.py  ----------
+---------- Running  ./data/AItest/test4/main.py  ----------
+---------- Running  ./data/AItest/test24/main.py  ----------
+---------- Running  ./data/AItest/test18/main.py  ----------
+---------- Running  ./data/AItest/test3/main.py  ----------
+False
+True
+---------- Running  ./data/AItest/test7/main.py  ----------
+---------- Running  ./data/AItest/test91/main.py  ----------
+True
+False
+True
+False
+---------- Running  ./data/AItest/test100/main.py  ----------
+---------- Running  ./data/AItest/test35/main.py  ----------
+---------- Running  ./data/AItest/test137/main.py  ----------
+False
+False
+True
+---------- Running  ./data/AItest/test65/main.py  ----------
+---------- Running  ./data/AItest/test160/main.py  ----------
+4321
+AB
+#A@c
+---------- Running  ./data/AItest/test6/main.py  ----------
+---------- Running  ./data/AItest/test32/main.py  ----------
+---------- Running  ./data/AItest/test70/main.py  ----------
+---------- Running  ./data/AItest/test122/main.py  ----------
+[1, 5]
+---------- Running  ./data/AItest/test26/main.py  ----------
+---------- Running  ./data/AItest/test158/main.py  ----------
+---------- Running  ./data/AItest/test108/main.py  ----------
+---------- Running  ./data/AItest/test143/main.py  ----------
+True
+False
+False
+---------- Running  ./data/AItest/test161/main.py  ----------
+---------- Running  ./data/AItest/test39/main.py  ----------
+---------- Running  ./data/AItest/test84/main.py  ----------
+---------- Running  ./data/AItest/test144/main.py  ----------
+---------- Running  ./data/AItest/test78/main.py  ----------
+---------- Running  ./data/AItest/test19/main.py  ----------
+[4, 2, 1, 2, 2, 1, 1, 1, 1, 4, 4]
+---------- Running  ./data/AItest/test141/main.py  ----------
+6
+0
+-126
+---------- Running  ./data/AItest/test10/main.py  ----------
+---------- Running  ./data/AItest/test130/main.py  ----------
+---------- Running  ./data/AItest/test47/main.py  ----------
+---------- Running  ./data/AItest/test146/main.py  ----------
+1
+---------- Running  ./data/AItest/test157/main.py  ----------
+string
+enam
+aaaaaaa
+---------- Running  ./data/AItest/test48/main.py  ----------
+---------- Running  ./data/AItest/test107/main.py  ----------
+---------- Running  ./data/AItest/test94/main.py  ----------
+---------- Running  ./data/AItest/test17/main.py  ----------
+---------- Running  ./data/AItest/test83/main.py  ----------
+1
+110
+1100
+---------- Running  ./data/AItest/test20/main.py  ----------
+0
+3
+3
+---------- Running  ./data/AItest/test28/main.py  ----------
+---------- Running  ./data/AItest/test77/main.py  ----------
+---------- Running  ./data/AItest/test133/main.py  ----------
+True
+---------- Running  ./data/AItest/test150/main.py  ----------
+---------- Running  ./data/AItest/test106/main.py  ----------
+---------- Running  ./data/AItest/test40/main.py  ----------
+False
+True
+False
+False
+False
+---------- Running  ./data/AItest/test118/main.py  ----------
+---------- Running  ./data/AItest/test88/main.py  ----------
+lm
+ewhjklnop
+kj
+ix
+---------- Running  ./data/AItest/test60/main.py  ----------
+---------- Running  ./data/AItest/test104/main.py  ----------
+---------- Running  ./data/AItest/test127/main.py  ----------
+---------- Running  ./data/AItest/test139/main.py  ----------
+Example
+Example_1
+_Example_2
+_Example-3
+---------- Running  ./data/AItest/test80/main.py  ----------
+['A+', 'B', 'C-', 'C', 'A-']
+---------- Running  ./data/AItest/test41/main.py  ----------
+---------- Running  ./data/AItest/test67/main.py  ----------
+---------- Running  ./data/AItest/test43/main.py  ----------
+False
+False
+False
+True
+False
+---------- Running  ./data/AItest/test74/main.py  ----------
+True
+---------- Running  ./data/AItest/test103/main.py  ----------
+---------- Running  ./data/AItest/test79/main.py  ----------
+---------- Running  ./data/AItest/test93/main.py  ----------
+10
+25
+13
+11
+3
+7
+---------- Running  ./data/AItest/test138/main.py  ----------
+---------- Running  ./data/AItest/test37/main.py  ----------
+0
+2
+3
+---------- Running  ./data/AItest/test44/main.py  ----------
+22
+1000
+111
+---------- Running  ./data/AItest/test58/main.py  ----------
+---------- Running  ./data/AItest/test49/main.py  ----------
+---------- Running  ./data/AItest/test101/main.py  ----------
+---------- Running  ./data/AItest/test30/main.py  ----------
+---------- Running  ./data/AItest/test135/main.py  ----------
+(None, 1)
+(None, None)
+(None, None)
+---------- Running  ./data/AItest/test131/main.py  ----------
+True
+False
+False
+False
+True
+True
+---------- Running  ./data/AItest/test46/main.py  ----------
+---------- Running  ./data/AItest/test148/main.py  ----------
+['aa']
+['ab', 'cd']
+---------- Running  ./data/AItest/test86/main.py  ----------
+---------- Running  ./data/AItest/test120/main.py  ----------
+---------- Running  ./data/AItest/test134/main.py  ----------
+2
+-1
+---------- Running  ./data/AItest/test64/main.py  ----------
+21
+12
+123
+321
+---------- Running  ./data/AItest/test51/main.py  ----------
+---------- Running  ./data/AItest/test12/main.py  ----------
+---------- Running  ./data/AItest/test76/main.py  ----------
+True
+False
+True
+True
+True
+False
+---------- Running  ./data/AItest/test90/main.py  ----------
+0
+1
+3
+---------- Running  ./data/AItest/test72/main.py  ----------
+4
+1
+0
+---------- Running  ./data/AItest/test155/main.py  ----------
+---------- Running  ./data/AItest/test129/main.py  ----------
+---------- Running  ./data/AItest/test73/main.py  ----------
+[]
+['hI', 'Hi']
+['hi', 'admin']
+['hI', 'hi', 'hi']
+['4']
+---------- Running  ./data/AItest/test82/main.py  ----------
+---------- Running  ./data/AItest/test123/main.py  ----------
+True
+False
+False
+True
+False
+---------- Running  ./data/AItest/test132/main.py  ----------
+---------- Running  ./data/AItest/test15/main.py  ----------
+---------- Running  ./data/AItest/test87/main.py  ----------
+---------- Running  ./data/AItest/test97/main.py  ----------
+1
+0
+0
+---------- Running  ./data/AItest/test63/main.py  ----------
+---------- Running  ./data/AItest/test102/main.py  ----------
+---------- Running  ./data/AItest/test136/main.py  ----------
+2.5
+2,3
+6
+None
+---------- Running  ./data/AItest/test45/main.py  ----------
+---------- Running  ./data/AItest/test109/main.py  ----------
+---------- Running  ./data/AItest/test116/main.py  ----------
+['little']
+['Mary', 'lamb']
+[]
+['world']
+['Uncle']
+---------- Running  ./data/AItest/test89/main.py  ----------
+2
+2
+None
+None
+---------- Running  ./data/AItest/test124/main.py  ----------
+['Hello', 'world!']
+['Hello', 'world!']
+591
+---------- Running  ./data/AItest/test56/main.py  ----------
+---------- Running  ./data/AItest/test105/main.py  ----------
+[1, 2, 6, 24, 15]
+---------- Running  ./data/AItest/test85/main.py  ----------
+Hi
+ehllo
+Hello !!!Wdlor
+---------- Running  ./data/AItest/test111/main.py  ----------
+('bcd', False)
+('acdef', False)
+('cdedc', True)
+---------- Running  ./data/AItest/test71/main.py  ----------
+---------- Running  ./data/AItest/test55/main.py  ----------
+---------- Running  ./data/AItest/test69/main.py  ----------
+[1, 4, 2, 3]
+[5, 5, 5, 5]
+[]
+---------- Running  ./data/AItest/test25/main.py  ----------
+---------- Running  ./data/AItest/test145/main.py  ----------
+1
+2
+---------- Running  ./data/AItest/test162/main.py  ----------
+[2, 4, 6, 8]
+[]
+[0, 2, 4]
+---------- Running  ./data/AItest/test112/main.py  ----------
+---------- Running  ./data/AItest/test22/main.py  ----------
+(2.0, 2.2)
+(2.0, 2.0)
+---------- Running  ./data/AItest/test52/main.py  ----------
+---------- Running  ./data/AItest/test115/main.py  ----------
+---------- Running  ./data/AItest/test99/main.py  ----------
+---------- Running  ./data/AItest/test1/main.py  ----------
+---------- Running  ./data/AItest/test8/main.py  ----------
+---------- Running  ./data/AItest/test57/main.py  ----------
+---------- Running  ./data/AItest/test68/main.py  ----------
+2
+3
+-1
+---------- Running  ./data/AItest/test110/main.py  ----------
+---------- Running  ./data/AItest/test128/main.py  ----------
+[1, 2, 3]
+[1]
+---------- Running  ./data/AItest/test50/main.py  ----------
+
+bcdf
+ghjklm
+bcdf
+
+B
+zbcd
+---------- Running  ./data/AItest/test117/main.py  ----------
+---------- Running  ./data/AItest/test92/main.py  ----------
+---------- Running  ./data/AItest/test66/main.py  ----------
+8
+2
+95
+19
+---------- Running  ./data/AItest/test121/main.py  ----------
+24
+---------- Running  ./data/AItest/test59/main.py  ----------
+465
+5050
+15
+55
+1
+---------- Running  ./data/AItest/test61/main.py  ----------
+---------- Running  ./data/AItest/test95/main.py  ----------
+---------- Running  ./data/AItest/test119/main.py  ----------
+[5, -3, -4]
+[4, 4]
+[2]
+---------- Running  ./data/AItest/test2/main.py  ----------
+ImageClassifier(
+  (conv): Conv2d(3, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+  (relu): ReLU()
+  (pool): AvgPool2d(kernel_size=2, stride=2, padding=0)
+  (fc): Linear(in_features=32768, out_features=10, bias=True)
+)
+Files already downloaded and verified
+---------- Running  ./data/AItest/test5/main.py  ----------
+---------- Running  ./data/AItest/test149/main.py  ----------
+34
+5
+---------- Running  ./data/AItest/test31/main.py  ----------
+---------- Running  ./data/AItest/test36/main.py  ----------
+---------- Running  ./data/AItest/test147/main.py  ----------
+('Saturn', 'Uranus')
+('Venus',)
+('Venus', 'Earth', 'Mars', 'Jupiter', 'Saturn')
+---------- Running  ./data/AItest/test140/main.py  ----------
+Yes
+No
+---------- Running  ./data/AItest/test38/main.py  ----------
+---------- Running  ./data/AItest/test53/main.py  ----------
+---------- Running  ./data/AItest/test114/main.py  ----------
+---------- Running  ./data/AItest/test98/main.py  ----------
+---------- Running  ./data/AItest/test54/main.py  ----------
+---------- Running  ./data/AItest/test113/main.py  ----------
+1
+-6
+---------- Running  ./data/AItest/test62/main.py  ----------
+---------- Running  ./data/AItest/test16/main.py  ----------
+---------- Running  ./data/AItest/test151/main.py  ----------
+[0, 0, 0, 0, 3, 3]
+[4, 4, 1, 0, 0, 6]
+---------- Running  ./data/AItest/test14/main.py  ----------
+---------- Running  ./data/AItest/test29/main.py  ----------
+---------- Running  ./data/AItest/test126/main.py  ----------
+NO
+YES
+YES
+---------- Running  ./data/AItest/test152/main.py  ----------
+Slices.SErviNGSliCes
+my_class.AA
+---------- Running  ./data/AItest/test153/main.py  ----------
+False
+True
+False
+True
+False
+True
+---------- Running  ./data/AItest/test11/main.py  ----------
+---------- Running  ./data/AItest/test23/main.py  ----------
+---------- Running  ./data/AItest/test75/main.py  ----------
+---------- Running  ./data/AItest/test13/main.py  ----------
+---------- Running  ./data/AItest/test156/main.py  ----------
+---------- Running  ./data/AItest/test142/main.py  ----------
+---------- Running  ./data/AItest/test24/main.py  ----------
+---------- Running  ./data/AItest/test154/main.py  ----------
+---------- Running  ./data/AItest/test33/main.py  ----------
+---------- Running  ./data/AItest/test27/main.py  ----------
+---------- Running  ./data/AItest/test100/main.py  ----------
+---------- Running  ./data/AItest/test34/main.py  ----------
+[1, 2, 3]
+[2, 6, 3, 4, 8, 9, 2]
+---------- Running  ./data/AItest/test4/main.py  ----------
+---------- Running  ./data/AItest/test18/main.py  ----------
+---------- Running  ./data/AItest/test81/main.py  ----------
+True
+True
+True
+False
+---------- Running  ./data/AItest/test3/main.py  ----------
+False
+True
+---------- Running  ./data/AItest/test9/main.py  ----------
+---------- Running  ./data/AItest/test160/main.py  ----------
+4321
+AB
+#A@c
+---------- Running  ./data/AItest/test7/main.py  ----------
+---------- Running  ./data/AItest/test35/main.py  ----------
+---------- Running  ./data/AItest/test158/main.py  ----------
+---------- Running  ./data/AItest/test78/main.py  ----------
+---------- Running  ./data/AItest/test6/main.py  ----------
+---------- Running  ./data/AItest/test32/main.py  ----------
+---------- Running  ./data/AItest/test137/main.py  ----------
+False
+False
+True
+---------- Running  ./data/AItest/test47/main.py  ----------
+---------- Running  ./data/AItest/test143/main.py  ----------
+True
+False
+False
+---------- Running  ./data/AItest/test70/main.py  ----------
+---------- Running  ./data/AItest/test107/main.py  ----------
+---------- Running  ./data/AItest/test20/main.py  ----------
+0
+3
+3
+---------- Running  ./data/AItest/test108/main.py  ----------
+---------- Running  ./data/AItest/test144/main.py  ----------
+---------- Running  ./data/AItest/test133/main.py  ----------
+True
+---------- Running  ./data/AItest/test42/main.py  ----------
+[2, 3, 4]
+[6, 4, 6, 3, 4, 4, 10, 1, 124]
+---------- Running  ./data/AItest/test84/main.py  ----------
+---------- Running  ./data/AItest/test130/main.py  ----------
+---------- Running  ./data/AItest/test21/main.py  ----------
+---------- Running  ./data/AItest/test159/main.py  ----------
+15
+---------- Running  ./data/AItest/test48/main.py  ----------
+---------- Running  ./data/AItest/test96/main.py  ----------
+---------- Running  ./data/AItest/test83/main.py  ----------
+1
+110
+1100
+---------- Running  ./data/AItest/test40/main.py  ----------
+False
+True
+False
+False
+False
+---------- Running  ./data/AItest/test125/main.py  ----------
+---------- Running  ./data/AItest/test77/main.py  ----------
+---------- Running  ./data/AItest/test94/main.py  ----------
+---------- Running  ./data/AItest/test106/main.py  ----------
+---------- Running  ./data/AItest/test80/main.py  ----------
+['A+', 'B', 'C-', 'C', 'A-']
+---------- Running  ./data/AItest/test74/main.py  ----------
+True
+---------- Running  ./data/AItest/test26/main.py  ----------
+---------- Running  ./data/AItest/test91/main.py  ----------
+True
+False
+True
+False
+---------- Running  ./data/AItest/test118/main.py  ----------
+---------- Running  ./data/AItest/test139/main.py  ----------
+Example
+Example_1
+_Example_2
+_Example-3
+---------- Running  ./data/AItest/test65/main.py  ----------
+---------- Running  ./data/AItest/test161/main.py  ----------
+---------- Running  ./data/AItest/test60/main.py  ----------
+---------- Running  ./data/AItest/test41/main.py  ----------
+---------- Running  ./data/AItest/test122/main.py  ----------
+[1, 5]
+---------- Running  ./data/AItest/test19/main.py  ----------
+[4, 2, 1, 2, 2, 1, 1, 1, 1, 4, 4]
+---------- Running  ./data/AItest/test127/main.py  ----------
+---------- Running  ./data/AItest/test10/main.py  ----------
+---------- Running  ./data/AItest/test67/main.py  ----------
+---------- Running  ./data/AItest/test138/main.py  ----------
+---------- Running  ./data/AItest/test157/main.py  ----------
+string
+enam
+aaaaaaa
+---------- Running  ./data/AItest/test79/main.py  ----------
+---------- Running  ./data/AItest/test93/main.py  ----------
+10
+25
+13
+11
+3
+7
+---------- Running  ./data/AItest/test39/main.py  ----------
+---------- Running  ./data/AItest/test49/main.py  ----------
+---------- Running  ./data/AItest/test17/main.py  ----------
+---------- Running  ./data/AItest/test134/main.py  ----------
+2
+-1
+---------- Running  ./data/AItest/test58/main.py  ----------
+---------- Running  ./data/AItest/test28/main.py  ----------
+---------- Running  ./data/AItest/test141/main.py  ----------
+6
+0
+-126
+---------- Running  ./data/AItest/test131/main.py  ----------
+True
+False
+False
+False
+True
+True
+---------- Running  ./data/AItest/test101/main.py  ----------
+---------- Running  ./data/AItest/test150/main.py  ----------
+---------- Running  ./data/AItest/test146/main.py  ----------
+1
+---------- Running  ./data/AItest/test46/main.py  ----------
+---------- Running  ./data/AItest/test88/main.py  ----------
+lm
+ewhjklnop
+kj
+ix
+---------- Running  ./data/AItest/test73/main.py  ----------
+[]
+['hI', 'Hi']
+['hi', 'admin']
+['hI', 'hi', 'hi']
+['4']
+---------- Running  ./data/AItest/test104/main.py  ----------
+---------- Running  ./data/AItest/test87/main.py  ----------
+---------- Running  ./data/AItest/test120/main.py  ----------
+---------- Running  ./data/AItest/test43/main.py  ----------
+False
+False
+False
+True
+False
+---------- Running  ./data/AItest/test102/main.py  ----------
+---------- Running  ./data/AItest/test103/main.py  ----------
+---------- Running  ./data/AItest/test12/main.py  ----------
+---------- Running  ./data/AItest/test76/main.py  ----------
+True
+False
+True
+True
+True
+False
+---------- Running  ./data/AItest/test45/main.py  ----------
+---------- Running  ./data/AItest/test51/main.py  ----------
+---------- Running  ./data/AItest/test44/main.py  ----------
+22
+1000
+111
+---------- Running  ./data/AItest/test82/main.py  ----------
+---------- Running  ./data/AItest/test155/main.py  ----------
+---------- Running  ./data/AItest/test89/main.py  ----------
+2
+2
+None
+None
+---------- Running  ./data/AItest/test135/main.py  ----------
+(None, 1)
+(None, None)
+(None, None)
+---------- Running  ./data/AItest/test129/main.py  ----------
+---------- Running  ./data/AItest/test15/main.py  ----------
+---------- Running  ./data/AItest/test105/main.py  ----------
+[1, 2, 6, 24, 15]
+---------- Running  ./data/AItest/test136/main.py  ----------
+2.5
+2,3
+6
+None
+---------- Running  ./data/AItest/test86/main.py  ----------
+---------- Running  ./data/AItest/test109/main.py  ----------
+---------- Running  ./data/AItest/test116/main.py  ----------
+['little']
+['Mary', 'lamb']
+[]
+['world']
+['Uncle']
+---------- Running  ./data/AItest/test56/main.py  ----------
+---------- Running  ./data/AItest/test37/main.py  ----------
+0
+2
+3
+---------- Running  ./data/AItest/test72/main.py  ----------
+4
+1
+0
+---------- Running  ./data/AItest/test85/main.py  ----------
+Hi
+ehllo
+Hello !!!Wdlor
+---------- Running  ./data/AItest/test111/main.py  ----------
+('bcd', False)
+('acdef', False)
+('cdedc', True)
+---------- Running  ./data/AItest/test30/main.py  ----------
+---------- Running  ./data/AItest/test132/main.py  ----------
+---------- Running  ./data/AItest/test69/main.py  ----------
+[1, 4, 2, 3]
+[5, 5, 5, 5]
+[]
+---------- Running  ./data/AItest/test71/main.py  ----------
+---------- Running  ./data/AItest/test148/main.py  ----------
+['aa']
+['ab', 'cd']
+---------- Running  ./data/AItest/test145/main.py  ----------
+1
+2
+---------- Running  ./data/AItest/test25/main.py  ----------
+---------- Running  ./data/AItest/test162/main.py  ----------
+[2, 4, 6, 8]
+[]
+[0, 2, 4]
+---------- Running  ./data/AItest/test64/main.py  ----------
+21
+12
+123
+321
+---------- Running  ./data/AItest/test90/main.py  ----------
+0
+1
+3
+---------- Running  ./data/AItest/test123/main.py  ----------
+True
+False
+False
+True
+False
+---------- Running  ./data/AItest/test22/main.py  ----------
+(2.0, 2.2)
+(2.0, 2.0)
+---------- Running  ./data/AItest/test97/main.py  ----------
+1
+0
+0
+---------- Running  ./data/AItest/test63/main.py  ----------
+---------- Running  ./data/AItest/test124/main.py  ----------
+['Hello', 'world!']
+['Hello', 'world!']
+591
+---------- Running  ./data/AItest/test55/main.py  ----------
+---------- Running  ./data/AItest/test112/main.py  ----------
+---------- Running  ./data/AItest/test52/main.py  ----------
+---------- Running  ./data/AItest/test115/main.py  ----------
+---------- Running  ./data/AItest/test99/main.py  ----------
+---------- Running  ./data/AItest/test1/main.py  ----------
+---------- Running  ./data/AItest/test8/main.py  ----------
+---------- Running  ./data/AItest/test57/main.py  ----------
+---------- Running  ./data/AItest/test68/main.py  ----------
+2
+3
+-1
+---------- Running  ./data/AItest/test110/main.py  ----------
+---------- Running  ./data/AItest/test128/main.py  ----------
+[1, 2, 3]
+[1]
+---------- Running  ./data/AItest/test50/main.py  ----------
+
+bcdf
+ghjklm
+bcdf
+
+B
+zbcd
+---------- Running  ./data/AItest/test117/main.py  ----------
+---------- Running  ./data/AItest/test92/main.py  ----------
+---------- Running  ./data/AItest/test66/main.py  ----------
+8
+2
+95
+19
+---------- Running  ./data/AItest/test121/main.py  ----------
+24
+---------- Running  ./data/AItest/test59/main.py  ----------
+465
+5050
+15
+55
+1
+---------- Running  ./data/AItest/test61/main.py  ----------
+---------- Running  ./data/AItest/test95/main.py  ----------
+---------- Running  ./data/AItest/test119/main.py  ----------
+[5, -3, -4]
+[4, 4]
+[2]
+---------- Running  ./data/AItest/test2/main.py  ----------
+ImageClassifier(
+  (conv): Conv2d(3, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+  (relu): ReLU()
+  (pool): AvgPool2d(kernel_size=2, stride=2, padding=0)
+  (fc): Linear(in_features=32768, out_features=10, bias=True)
+)
+Files already downloaded and verified
+---------- Running  ./data/AItest/test5/main.py  ----------
+---------- Running  ./data/AItest/test149/main.py  ----------
+34
+5
+---------- Running  ./data/AItest/test31/main.py  ----------
+---------- Running  ./data/AItest/test36/main.py  ----------
+---------- Running  ./data/AItest/test147/main.py  ----------
+('Saturn', 'Uranus')
+('Venus',)
+('Venus', 'Earth', 'Mars', 'Jupiter', 'Saturn')
+---------- Running  ./data/AItest/test140/main.py  ----------
+Yes
+No
+---------- Running  ./data/AItest/test38/main.py  ----------
+---------- Running  ./data/AItest/test53/main.py  ----------
+---------- Running  ./data/AItest/test114/main.py  ----------
+---------- Running  ./data/AItest/test98/main.py  ----------
+---------- Running  ./data/AItest/test54/main.py  ----------
+---------- Running  ./data/AItest/test113/main.py  ----------
+1
+-6
+---------- Running  ./data/AItest/test62/main.py  ----------
+---------- Running  ./data/AItest/test96/main.py  ----------
+---------- Running  ./data/AItest/test42/main.py  ----------
+[2, 3, 4]
+[6, 4, 6, 3, 4, 4, 10, 1, 124]
+---------- Running  ./data/AItest/test126/main.py  ----------
+NO
+YES
+YES
+---------- Running  ./data/AItest/test75/main.py  ----------
+---------- Running  ./data/AItest/test14/main.py  ----------
+---------- Running  ./data/AItest/test125/main.py  ----------
+---------- Running  ./data/AItest/test16/main.py  ----------
+---------- Running  ./data/AItest/test21/main.py  ----------
+---------- Running  ./data/AItest/test152/main.py  ----------
+Slices.SErviNGSliCes
+my_class.AA
+---------- Running  ./data/AItest/test153/main.py  ----------
+False
+True
+False
+True
+False
+True
+---------- Running  ./data/AItest/test151/main.py  ----------
+[0, 0, 0, 0, 3, 3]
+[4, 4, 1, 0, 0, 6]
+---------- Running  ./data/AItest/test159/main.py  ----------
+15
+---------- Running  ./data/AItest/test23/main.py  ----------
+---------- Running  ./data/AItest/test29/main.py  ----------
+---------- Running  ./data/AItest/test13/main.py  ----------
+---------- Running  ./data/AItest/test24/main.py  ----------
+---------- Running  ./data/AItest/test11/main.py  ----------
+---------- Running  ./data/AItest/test154/main.py  ----------
+---------- Running  ./data/AItest/test156/main.py  ----------
+---------- Running  ./data/AItest/test100/main.py  ----------
+---------- Running  ./data/AItest/test27/main.py  ----------
+---------- Running  ./data/AItest/test81/main.py  ----------
+True
+True
+True
+False
+---------- Running  ./data/AItest/test4/main.py  ----------
+---------- Running  ./data/AItest/test18/main.py  ----------
+---------- Running  ./data/AItest/test91/main.py  ----------
+True
+False
+True
+False
+---------- Running  ./data/AItest/test9/main.py  ----------
+---------- Running  ./data/AItest/test3/main.py  ----------
+False
+True
+---------- Running  ./data/AItest/test160/main.py  ----------
+4321
+AB
+#A@c
+---------- Running  ./data/AItest/test7/main.py  ----------
+---------- Running  ./data/AItest/test65/main.py  ----------
+---------- Running  ./data/AItest/test158/main.py  ----------
+---------- Running  ./data/AItest/test6/main.py  ----------
+---------- Running  ./data/AItest/test35/main.py  ----------
+---------- Running  ./data/AItest/test122/main.py  ----------
+[1, 5]
+---------- Running  ./data/AItest/test32/main.py  ----------
+---------- Running  ./data/AItest/test1/main.py  ----------
+---------- Running  ./data/AItest/test78/main.py  ----------
+---------- Running  ./data/AItest/test26/main.py  ----------
+---------- Running  ./data/AItest/test143/main.py  ----------
+True
+False
+False
+---------- Running  ./data/AItest/test39/main.py  ----------
+---------- Running  ./data/AItest/test47/main.py  ----------
+---------- Running  ./data/AItest/test144/main.py  ----------
+---------- Running  ./data/AItest/test20/main.py  ----------
+0
+3
+3
+---------- Running  ./data/AItest/test161/main.py  ----------
+---------- Running  ./data/AItest/test141/main.py  ----------
+6
+0
+-126
+---------- Running  ./data/AItest/test107/main.py  ----------
+---------- Running  ./data/AItest/test146/main.py  ----------
+1
+---------- Running  ./data/AItest/test19/main.py  ----------
+[4, 2, 1, 2, 2, 1, 1, 1, 1, 4, 4]
+---------- Running  ./data/AItest/test133/main.py  ----------
+True
+---------- Running  ./data/AItest/test10/main.py  ----------
+---------- Running  ./data/AItest/test8/main.py  ----------
+---------- Running  ./data/AItest/test94/main.py  ----------
+---------- Running  ./data/AItest/test40/main.py  ----------
+False
+True
+False
+False
+False
+---------- Running  ./data/AItest/test157/main.py  ----------
+string
+enam
+aaaaaaa
+---------- Running  ./data/AItest/test17/main.py  ----------
+---------- Running  ./data/AItest/test80/main.py  ----------
+['A+', 'B', 'C-', 'C', 'A-']
+---------- Running  ./data/AItest/test28/main.py  ----------
+---------- Running  ./data/AItest/test150/main.py  ----------
+---------- Running  ./data/AItest/test74/main.py  ----------
+True
+---------- Running  ./data/AItest/test88/main.py  ----------
+lm
+ewhjklnop
+kj
+ix
+---------- Running  ./data/AItest/test104/main.py  ----------
+---------- Running  ./data/AItest/test43/main.py  ----------
+False
+False
+False
+True
+False
+---------- Running  ./data/AItest/test142/main.py  ----------
+---------- Running  ./data/AItest/test103/main.py  ----------
+---------- Running  ./data/AItest/test57/main.py  ----------
+---------- Running  ./data/AItest/test33/main.py  ----------
+---------- Running  ./data/AItest/test118/main.py  ----------
+---------- Running  ./data/AItest/test44/main.py  ----------
+22
+1000
+111
+---------- Running  ./data/AItest/test68/main.py  ----------
+2
+3
+-1
+---------- Running  ./data/AItest/test34/main.py  ----------
+[1, 2, 3]
+[2, 6, 3, 4, 8, 9, 2]
+---------- Running  ./data/AItest/test135/main.py  ----------
+(None, 1)
+(None, None)
+(None, None)
+---------- Running  ./data/AItest/test60/main.py  ----------
+---------- Running  ./data/AItest/test110/main.py  ----------
+---------- Running  ./data/AItest/test86/main.py  ----------
+---------- Running  ./data/AItest/test134/main.py  ----------
+2
+-1
+---------- Running  ./data/AItest/test127/main.py  ----------
+---------- Running  ./data/AItest/test138/main.py  ----------
+---------- Running  ./data/AItest/test128/main.py  ----------
+[1, 2, 3]
+[1]
+---------- Running  ./data/AItest/test37/main.py  ----------
+0
+2
+3
+---------- Running  ./data/AItest/test67/main.py  ----------
+---------- Running  ./data/AItest/test49/main.py  ----------
+---------- Running  ./data/AItest/test137/main.py  ----------
+False
+False
+True
+---------- Running  ./data/AItest/test93/main.py  ----------
+10
+25
+13
+11
+3
+7
+---------- Running  ./data/AItest/test30/main.py  ----------
+---------- Running  ./data/AItest/test58/main.py  ----------
+---------- Running  ./data/AItest/test131/main.py  ----------
+True
+False
+False
+False
+True
+True
+---------- Running  ./data/AItest/test148/main.py  ----------
+['aa']
+['ab', 'cd']
+---------- Running  ./data/AItest/test72/main.py  ----------
+4
+1
+0
+---------- Running  ./data/AItest/test70/main.py  ----------
+---------- Running  ./data/AItest/test132/main.py  ----------
+---------- Running  ./data/AItest/test64/main.py  ----------
+21
+12
+123
+321
+---------- Running  ./data/AItest/test108/main.py  ----------
+---------- Running  ./data/AItest/test90/main.py  ----------
+0
+1
+3
+---------- Running  ./data/AItest/test73/main.py  ----------
+[]
+['hI', 'Hi']
+['hi', 'admin']
+['hI', 'hi', 'hi']
+['4']
+---------- Running  ./data/AItest/test120/main.py  ----------
+---------- Running  ./data/AItest/test84/main.py  ----------
+---------- Running  ./data/AItest/test123/main.py  ----------
+True
+False
+False
+True
+False
+---------- Running  ./data/AItest/test97/main.py  ----------
+1
+0
+0
+---------- Running  ./data/AItest/test87/main.py  ----------
+---------- Running  ./data/AItest/test130/main.py  ----------
+---------- Running  ./data/AItest/test63/main.py  ----------
+---------- Running  ./data/AItest/test48/main.py  ----------
+---------- Running  ./data/AItest/test102/main.py  ----------
+---------- Running  ./data/AItest/test83/main.py  ----------
+1
+110
+1100
+---------- Running  ./data/AItest/test45/main.py  ----------
+---------- Running  ./data/AItest/test76/main.py  ----------
+True
+False
+True
+True
+True
+False
+---------- Running  ./data/AItest/test51/main.py  ----------
+---------- Running  ./data/AItest/test129/main.py  ----------
+---------- Running  ./data/AItest/test89/main.py  ----------
+2
+2
+None
+None
+---------- Running  ./data/AItest/test77/main.py  ----------
+---------- Running  ./data/AItest/test82/main.py  ----------
+---------- Running  ./data/AItest/test106/main.py  ----------
+---------- Running  ./data/AItest/test105/main.py  ----------
+[1, 2, 6, 24, 15]
+---------- Running  ./data/AItest/test50/main.py  ----------
+
+bcdf
+ghjklm
+bcdf
+
+B
+zbcd
+---------- Running  ./data/AItest/test117/main.py  ----------
+---------- Running  ./data/AItest/test116/main.py  ----------
+['little']
+['Mary', 'lamb']
+[]
+['world']
+['Uncle']
+---------- Running  ./data/AItest/test92/main.py  ----------
+---------- Running  ./data/AItest/test136/main.py  ----------
+2.5
+2,3
+6
+None
+---------- Running  ./data/AItest/test56/main.py  ----------
+---------- Running  ./data/AItest/test124/main.py  ----------
+['Hello', 'world!']
+['Hello', 'world!']
+591
+---------- Running  ./data/AItest/test109/main.py  ----------
+---------- Running  ./data/AItest/test111/main.py  ----------
+('bcd', False)
+('acdef', False)
+('cdedc', True)
+---------- Running  ./data/AItest/test69/main.py  ----------
+[1, 4, 2, 3]
+[5, 5, 5, 5]
+[]
+---------- Running  ./data/AItest/test145/main.py  ----------
+1
+2
+---------- Running  ./data/AItest/test66/main.py  ----------
+8
+2
+95
+19
+---------- Running  ./data/AItest/test139/main.py  ----------
+Example
+Example_1
+_Example_2
+_Example-3
+---------- Running  ./data/AItest/test41/main.py  ----------
+---------- Running  ./data/AItest/test121/main.py  ----------
+24
+---------- Running  ./data/AItest/test85/main.py  ----------
+Hi
+ehllo
+Hello !!!Wdlor
+---------- Running  ./data/AItest/test71/main.py  ----------
+---------- Running  ./data/AItest/test25/main.py  ----------
+---------- Running  ./data/AItest/test55/main.py  ----------
+---------- Running  ./data/AItest/test162/main.py  ----------
+[2, 4, 6, 8]
+[]
+[0, 2, 4]
+---------- Running  ./data/AItest/test79/main.py  ----------
+---------- Running  ./data/AItest/test59/main.py  ----------
+465
+5050
+15
+55
+1
+---------- Running  ./data/AItest/test101/main.py  ----------
+---------- Running  ./data/AItest/test22/main.py  ----------
+(2.0, 2.2)
+(2.0, 2.0)
+---------- Running  ./data/AItest/test112/main.py  ----------
+---------- Running  ./data/AItest/test61/main.py  ----------
+---------- Running  ./data/AItest/test46/main.py  ----------
+---------- Running  ./data/AItest/test95/main.py  ----------
+---------- Running  ./data/AItest/test119/main.py  ----------
+[5, -3, -4]
+[4, 4]
+[2]
+---------- Running  ./data/AItest/test52/main.py  ----------
+---------- Running  ./data/AItest/test12/main.py  ----------
+---------- Running  ./data/AItest/test115/main.py  ----------
+---------- Running  ./data/AItest/test155/main.py  ----------
+---------- Running  ./data/AItest/test99/main.py  ----------
+---------- Running  ./data/AItest/test15/main.py  ----------
+---------- Running  ./data/AItest/test2/main.py  ----------
+ImageClassifier(
+  (conv): Conv2d(3, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+  (relu): ReLU()
+  (pool): AvgPool2d(kernel_size=2, stride=2, padding=0)
+  (fc): Linear(in_features=32768, out_features=10, bias=True)
+)
+Files already downloaded and verified
+---------- Running  ./data/AItest/test5/main.py  ----------
+---------- Running  ./data/AItest/test149/main.py  ----------
+34
+5
+---------- Running  ./data/AItest/test31/main.py  ----------
+---------- Running  ./data/AItest/test36/main.py  ----------
+---------- Running  ./data/AItest/test147/main.py  ----------
+('Saturn', 'Uranus')
+('Venus',)
+('Venus', 'Earth', 'Mars', 'Jupiter', 'Saturn')
+---------- Running  ./data/AItest/test140/main.py  ----------
+Yes
+No
+---------- Running  ./data/AItest/test38/main.py  ----------
+---------- Running  ./data/AItest/test53/main.py  ----------
+---------- Running  ./data/AItest/test114/main.py  ----------
+---------- Running  ./data/AItest/test98/main.py  ----------
+---------- Running  ./data/AItest/test54/main.py  ----------
+---------- Running  ./data/AItest/test113/main.py  ----------
+1
+-6
+---------- Running  ./data/AItest/test62/main.py  ----------
+---------- Running  ./data/AItest/test16/main.py  ----------
+---------- Running  ./data/AItest/test14/main.py  ----------
+---------- Running  ./data/AItest/test153/main.py  ----------
+False
+True
+False
+True
+False
+True
+---------- Running  ./data/AItest/test13/main.py  ----------
+---------- Running  ./data/AItest/test154/main.py  ----------
+---------- Running  ./data/AItest/test4/main.py  ----------
+---------- Running  ./data/AItest/test3/main.py  ----------
+False
+True
+---------- Running  ./data/AItest/test96/main.py  ----------
+---------- Running  ./data/AItest/test75/main.py  ----------
+---------- Running  ./data/AItest/test125/main.py  ----------
+---------- Running  ./data/AItest/test126/main.py  ----------
+NO
+YES
+YES
+---------- Running  ./data/AItest/test16/main.py  ----------
+---------- Running  ./data/AItest/test151/main.py  ----------
+[0, 0, 0, 0, 3, 3]
+[4, 4, 1, 0, 0, 6]
+---------- Running  ./data/AItest/test29/main.py  ----------
+---------- Running  ./data/AItest/test11/main.py  ----------
+---------- Running  ./data/AItest/test81/main.py  ----------
+True
+True
+True
+False
+---------- Running  ./data/AItest/test156/main.py  ----------
+---------- Running  ./data/AItest/test9/main.py  ----------
+---------- Running  ./data/AItest/test27/main.py  ----------
+---------- Running  ./data/AItest/test7/main.py  ----------
+---------- Running  ./data/AItest/test18/main.py  ----------
+---------- Running  ./data/AItest/test6/main.py  ----------
+---------- Running  ./data/AItest/test160/main.py  ----------
+4321
+AB
+#A@c
+---------- Running  ./data/AItest/test158/main.py  ----------
+---------- Running  ./data/AItest/test1/main.py  ----------
+---------- Running  ./data/AItest/test91/main.py  ----------
+True
+False
+True
+False
+---------- Running  ./data/AItest/test65/main.py  ----------
+---------- Running  ./data/AItest/test122/main.py  ----------
+[1, 5]
+---------- Running  ./data/AItest/test35/main.py  ----------
+---------- Running  ./data/AItest/test32/main.py  ----------
+---------- Running  ./data/AItest/test143/main.py  ----------
+True
+False
+False
+---------- Running  ./data/AItest/test39/main.py  ----------
+---------- Running  ./data/AItest/test144/main.py  ----------
+---------- Running  ./data/AItest/test8/main.py  ----------
+---------- Running  ./data/AItest/test141/main.py  ----------
+6
+0
+-126
+---------- Running  ./data/AItest/test146/main.py  ----------
+1
+---------- Running  ./data/AItest/test20/main.py  ----------
+0
+3
+3
+---------- Running  ./data/AItest/test133/main.py  ----------
+True
+---------- Running  ./data/AItest/test94/main.py  ----------
+---------- Running  ./data/AItest/test142/main.py  ----------
+---------- Running  ./data/AItest/test57/main.py  ----------
+---------- Running  ./data/AItest/test33/main.py  ----------
+---------- Running  ./data/AItest/test80/main.py  ----------
+['A+', 'B', 'C-', 'C', 'A-']
+---------- Running  ./data/AItest/test68/main.py  ----------
+2
+3
+-1
+---------- Running  ./data/AItest/test34/main.py  ----------
+[1, 2, 3]
+[2, 6, 3, 4, 8, 9, 2]
+---------- Running  ./data/AItest/test110/main.py  ----------
+---------- Running  ./data/AItest/test74/main.py  ----------
+True
+---------- Running  ./data/AItest/test128/main.py  ----------
+[1, 2, 3]
+[1]
+---------- Running  ./data/AItest/test118/main.py  ----------
+---------- Running  ./data/AItest/test60/main.py  ----------
+---------- Running  ./data/AItest/test127/main.py  ----------
+---------- Running  ./data/AItest/test152/main.py  ----------
+Slices.SErviNGSliCes
+my_class.AA
+---------- Running  ./data/AItest/test42/main.py  ----------
+[2, 3, 4]
+[6, 4, 6, 3, 4, 4, 10, 1, 124]
+---------- Running  ./data/AItest/test21/main.py  ----------
+---------- Running  ./data/AItest/test67/main.py  ----------
+---------- Running  ./data/AItest/test159/main.py  ----------
+15
+---------- Running  ./data/AItest/test137/main.py  ----------
+False
+False
+True
+---------- Running  ./data/AItest/test93/main.py  ----------
+10
+25
+13
+11
+3
+7
+---------- Running  ./data/AItest/test23/main.py  ----------
+---------- Running  ./data/AItest/test70/main.py  ----------
+---------- Running  ./data/AItest/test58/main.py  ----------
+---------- Running  ./data/AItest/test24/main.py  ----------
+---------- Running  ./data/AItest/test108/main.py  ----------
+---------- Running  ./data/AItest/test100/main.py  ----------
+---------- Running  ./data/AItest/test84/main.py  ----------
+---------- Running  ./data/AItest/test134/main.py  ----------
+2
+-1
+---------- Running  ./data/AItest/test130/main.py  ----------
+---------- Running  ./data/AItest/test48/main.py  ----------
+---------- Running  ./data/AItest/test83/main.py  ----------
+1
+110
+1100
+---------- Running  ./data/AItest/test77/main.py  ----------
+---------- Running  ./data/AItest/test78/main.py  ----------
+---------- Running  ./data/AItest/test106/main.py  ----------
+---------- Running  ./data/AItest/test120/main.py  ----------
+---------- Running  ./data/AItest/test47/main.py  ----------
+---------- Running  ./data/AItest/test73/main.py  ----------
+[]
+['hI', 'Hi']
+['hi', 'admin']
+['hI', 'hi', 'hi']
+['4']
+---------- Running  ./data/AItest/test37/main.py  ----------
+0
+2
+3
+---------- Running  ./data/AItest/test107/main.py  ----------
+---------- Running  ./data/AItest/test87/main.py  ----------
+---------- Running  ./data/AItest/test30/main.py  ----------
+---------- Running  ./data/AItest/test148/main.py  ----------
+['aa']
+['ab', 'cd']
+---------- Running  ./data/AItest/test51/main.py  ----------
+---------- Running  ./data/AItest/test64/main.py  ----------
+21
+12
+123
+321
+---------- Running  ./data/AItest/test102/main.py  ----------
+---------- Running  ./data/AItest/test45/main.py  ----------
+---------- Running  ./data/AItest/test129/main.py  ----------
+---------- Running  ./data/AItest/test90/main.py  ----------
+0
+1
+3
+---------- Running  ./data/AItest/test89/main.py  ----------
+2
+2
+None
+None
+---------- Running  ./data/AItest/test123/main.py  ----------
+True
+False
+False
+True
+False
+---------- Running  ./data/AItest/test105/main.py  ----------
+[1, 2, 6, 24, 15]
+---------- Running  ./data/AItest/test97/main.py  ----------
+1
+0
+0
+---------- Running  ./data/AItest/test63/main.py  ----------
+---------- Running  ./data/AItest/test50/main.py  ----------
+
+bcdf
+ghjklm
+bcdf
+
+B
+zbcd
+---------- Running  ./data/AItest/test117/main.py  ----------
+---------- Running  ./data/AItest/test92/main.py  ----------
+---------- Running  ./data/AItest/test26/main.py  ----------
+---------- Running  ./data/AItest/test139/main.py  ----------
+Example
+Example_1
+_Example_2
+_Example-3
+---------- Running  ./data/AItest/test41/main.py  ----------
+---------- Running  ./data/AItest/test116/main.py  ----------
+['little']
+['Mary', 'lamb']
+[]
+['world']
+['Uncle']
+---------- Running  ./data/AItest/test40/main.py  ----------
+False
+True
+False
+False
+False
+---------- Running  ./data/AItest/test161/main.py  ----------
+---------- Running  ./data/AItest/test19/main.py  ----------
+[4, 2, 1, 2, 2, 1, 1, 1, 1, 4, 4]
+---------- Running  ./data/AItest/test56/main.py  ----------
+---------- Running  ./data/AItest/test79/main.py  ----------
+---------- Running  ./data/AItest/test10/main.py  ----------
+---------- Running  ./data/AItest/test111/main.py  ----------
+('bcd', False)
+('acdef', False)
+('cdedc', True)
+---------- Running  ./data/AItest/test157/main.py  ----------
+string
+enam
+aaaaaaa
+---------- Running  ./data/AItest/test124/main.py  ----------
+['Hello', 'world!']
+['Hello', 'world!']
+591
+---------- Running  ./data/AItest/test69/main.py  ----------
+[1, 4, 2, 3]
+[5, 5, 5, 5]
+[]
+---------- Running  ./data/AItest/test66/main.py  ----------
+8
+2
+95
+19
+---------- Running  ./data/AItest/test101/main.py  ----------
+---------- Running  ./data/AItest/test17/main.py  ----------
+---------- Running  ./data/AItest/test145/main.py  ----------
+1
+2
+---------- Running  ./data/AItest/test121/main.py  ----------
+24
+---------- Running  ./data/AItest/test46/main.py  ----------
+---------- Running  ./data/AItest/test28/main.py  ----------
+---------- Running  ./data/AItest/test150/main.py  ----------
+---------- Running  ./data/AItest/test88/main.py  ----------
+lm
+ewhjklnop
+kj
+ix
+---------- Running  ./data/AItest/test104/main.py  ----------
+---------- Running  ./data/AItest/test43/main.py  ----------
+False
+False
+False
+True
+False
+---------- Running  ./data/AItest/test59/main.py  ----------
+465
+5050
+15
+55
+1
+---------- Running  ./data/AItest/test61/main.py  ----------
+---------- Running  ./data/AItest/test55/main.py  ----------
+---------- Running  ./data/AItest/test103/main.py  ----------
+---------- Running  ./data/AItest/test95/main.py  ----------
+---------- Running  ./data/AItest/test44/main.py  ----------
+22
+1000
+111
+---------- Running  ./data/AItest/test135/main.py  ----------
+(None, 1)
+(None, None)
+(None, None)
+---------- Running  ./data/AItest/test119/main.py  ----------
+[5, -3, -4]
+[4, 4]
+[2]
+---------- Running  ./data/AItest/test86/main.py  ----------
+---------- Running  ./data/AItest/test12/main.py  ----------
+---------- Running  ./data/AItest/test155/main.py  ----------
+---------- Running  ./data/AItest/test138/main.py  ----------
+---------- Running  ./data/AItest/test15/main.py  ----------
+---------- Running  ./data/AItest/test49/main.py  ----------
+---------- Running  ./data/AItest/test112/main.py  ----------
+---------- Running  ./data/AItest/test131/main.py  ----------
+True
+False
+False
+False
+True
+True
+---------- Running  ./data/AItest/test72/main.py  ----------
+4
+1
+0
+---------- Running  ./data/AItest/test76/main.py  ----------
+True
+False
+True
+True
+True
+False
+---------- Running  ./data/AItest/test132/main.py  ----------
+---------- Running  ./data/AItest/test82/main.py  ----------
+---------- Running  ./data/AItest/test52/main.py  ----------
+---------- Running  ./data/AItest/test115/main.py  ----------
+---------- Running  ./data/AItest/test99/main.py  ----------
+---------- Running  ./data/AItest/test136/main.py  ----------
+2.5
+2,3
+6
+None
+---------- Running  ./data/AItest/test109/main.py  ----------
+---------- Running  ./data/AItest/test85/main.py  ----------
+Hi
+ehllo
+Hello !!!Wdlor
+---------- Running  ./data/AItest/test71/main.py  ----------
+---------- Running  ./data/AItest/test25/main.py  ----------
+---------- Running  ./data/AItest/test162/main.py  ----------
+[2, 4, 6, 8]
+[]
+[0, 2, 4]
+---------- Running  ./data/AItest/test22/main.py  ----------
+(2.0, 2.2)
+(2.0, 2.0)
+---------- Running  ./data/AItest/test2/main.py  ----------
+ImageClassifier(
+  (conv): Conv2d(3, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+  (relu): ReLU()
+  (pool): AvgPool2d(kernel_size=2, stride=2, padding=0)
+  (fc): Linear(in_features=32768, out_features=10, bias=True)
+)
+Files already downloaded and verified
+---------- Running  ./data/AItest/test5/main.py  ----------
+---------- Running  ./data/AItest/test149/main.py  ----------
+34
+5
+---------- Running  ./data/AItest/test31/main.py  ----------
+---------- Running  ./data/AItest/test36/main.py  ----------
+---------- Running  ./data/AItest/test147/main.py  ----------
+('Saturn', 'Uranus')
+('Venus',)
+('Venus', 'Earth', 'Mars', 'Jupiter', 'Saturn')
+---------- Running  ./data/AItest/test140/main.py  ----------
+Yes
+No
+---------- Running  ./data/AItest/test38/main.py  ----------
+---------- Running  ./data/AItest/test53/main.py  ----------
+---------- Running  ./data/AItest/test114/main.py  ----------
+---------- Running  ./data/AItest/test98/main.py  ----------
+---------- Running  ./data/AItest/test54/main.py  ----------
+---------- Running  ./data/AItest/test113/main.py  ----------
+1
+-6
+---------- Running  ./data/AItest/test62/main.py  ----------
