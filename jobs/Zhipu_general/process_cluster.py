@@ -37,10 +37,14 @@ test_folders = [folder for folder in folders if folder.startswith('test')]
 
 
 # -------------------- infer ----------------------------
-base_prompt = '你是一个擅长补充代码的助手。\n请你根据题目要求来完善代码。' \
-    '请记住，你必须在题目代码的框架下进行回答，需要包含框架并且最后输出是一整段完整代码(包含框架import内容)。\n' \
-    '你只需关注代码部分,不需要关注环境配置等问题。请你以\'\'\'{language} {{code}}\'\'\'的格式回答。\n' \
-    '[需要补充的代码框架]： {question}\n' \
+#base_prompt = '你是一个擅长补充代码的助手。\n请你根据题目要求来完善代码。' \
+#    '请记住，你必须在题目代码的框架下进行回答，需要包含框架并且最后输出是一整段完整代码(包含框架import内容)。\n' \
+#    '你只需关注代码部分,不需要关注环境配置等问题。请你以\'\'\'{language} {{code}}\'\'\'的格式回答。\n' \
+#    '[需要补充的代码框架]： {question}\n' \
+base_prompt = 'You are an assistant proficient in completing code.\nPlease enhance the code according to the given requirements.' \
+    'Remember, you must answer within the framework of the given code, including the framework and outputting a complete code snippet (including import statements).\n' \
+    'You should only focus on the code part and ignore environment configuration issues. Please respond in the format \'\'\'{language} {{code}}\'\'\'.\n' \
+    '[Code framework to be completed]: {question}\n'
 
 
 
