@@ -4,33 +4,33 @@ import numpy as np
 from solution import LinearRegression
 
 def main():
-    # ¶¨ÒåÄ£ĞÍ
-    input_dim = 1  # ÊäÈëµÄÎ¬¶È
-    output_dim = 1  # Êä³öµÄÎ¬¶È
+    # å®šä¹‰æ¨¡å‹
+    input_dim = 1  # è¾“å…¥çš„ç»´åº¦
+    output_dim = 1  # è¾“å‡ºçš„ç»´åº¦
 
     model = LinearRegression(input_dim, output_dim)
 
-    # ¶¨ÒåËğÊ§º¯ÊıºÍÓÅ»¯Æ÷
+    # å®šä¹‰æŸå¤±å‡½æ•°å’Œä¼˜åŒ–å™¨
     criterion = nn.MSELoss()
     optimizer = torch.optim.SGD(model.parameters(), lr=0.01)
 
-    # ÑµÁ·Ä£ĞÍ
+    # è®­ç»ƒæ¨¡å‹
     epochs = 100
-    # Êı¾İ¼¯
+    # æ•°æ®é›†
     np.random.seed(0)
     x = np.random.rand(10, 1)
     y = 2 * x + 3 + np.random.randn(10, 1)
 
-    # ½«numpyÊı×é×ª»»ÎªPyTorch Tensor
+    # å°†numpyæ•°ç»„è½¬æ¢ä¸ºPyTorch Tensor
     x = torch.from_numpy(x).float()
     y = torch.from_numpy(y).float()
 
     for epoch in range(epochs):
-        # Ç°Ïò´«²¥
+        # å‰å‘ä¼ æ’­
         outputs = model(x)
         loss = criterion(outputs, y)
         
-        # ·´Ïò´«²¥ºÍÓÅ»¯
+        # åå‘ä¼ æ’­å’Œä¼˜åŒ–
         optimizer.zero_grad()
         loss.backward()
         optimizer.step()
@@ -38,6 +38,6 @@ def main():
         if (epoch+1) % 10 == 0:
             print(f'Epoch {epoch+1}/{epochs}, Loss: {loss.item()}')
     print("Final Loss:",loss.item())
-    # ÔÚÑµÁ·Ñ­»·½áÊøºó
+    # åœ¨è®­ç»ƒå¾ªç¯ç»“æŸå
     assert loss.item() < 2, "Loss is not less than 2"
     return 1

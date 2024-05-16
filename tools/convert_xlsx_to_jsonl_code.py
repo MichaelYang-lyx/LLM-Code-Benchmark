@@ -3,6 +3,7 @@ import json
 import csv
 import pandas as pd
 import json
+import shutil
 
 class SubsetSampler:
     def __init__(self):
@@ -78,6 +79,20 @@ class SubsetSampler:
         # Use the current working directory if no output directory is provided
         if output_dir is None:
             output_dir = os.getcwd()
+            
+        def delete_test_folders(output_dir):
+            for folder_name in os.listdir(output_dir):
+                if folder_name.startswith('test'):
+                    folder_path = os.path.join(output_dir, folder_name)
+                    if os.path.isdir(folder_path):
+                        try:
+                            shutil.rmtree(folder_path)
+                            print(f"Deleted folder: {folder_path}")
+                        except OSError as e:
+                            print(f"Error deleting folder: {folder_path}, {e}")
+
+        # Delete test folders before executing the code
+        delete_test_folders(output_dir)
 
         # Iterate over all questions
         for item in data:
@@ -92,14 +107,17 @@ class SubsetSampler:
             dir_path = os.path.join(output_dir, 'test' + str(question_id))
             os.makedirs(dir_path, exist_ok=True)
 
-            # 现在测试用
+            # 现在测试用 会生成正确solution
             # with open(os.path.join(dir_path, file_name), 'w') as f:
             #     f.write(reference)
+            
+            with open(os.path.join(dir_path, 'prompt.txt'), 'w') as f:
+                f.write(question)
                 
             with open(os.path.join(dir_path, 'reference.txt'), 'w') as f:
                 f.write(reference)
 
-            # Write the main content to a file
+            # Write the main content to a file, test case for generated answer
             with open(os.path.join(dir_path, 'main.py'), 'w') as f:
                 f.write(main)
 

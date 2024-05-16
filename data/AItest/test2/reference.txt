@@ -11,20 +11,20 @@ class ImageClassifier(nn.Module):
 
     def forward(self, x):
         """
-        ÊäÈë:
-        - x: Ò»¸öĞÎ×´Îª(batch_size, input_size, height, width)µÄPyTorchÕÅÁ¿¡£
+        è¾“å…¥:
+        - x: ä¸€ä¸ªå½¢çŠ¶ä¸º(batch_size, input_size, height, width)çš„PyTorchå¼ é‡ã€‚
 
-        Êä³ö:
-        - out: Ò»¸öĞÎ×´Îª(batch_size, num_classes)µÄPyTorchÕÅÁ¿£¬±íÊ¾Í¼Ïñ·ÖÀàÄ£ĞÍµÄÊä³ö¡£
+        è¾“å‡º:
+        - out: ä¸€ä¸ªå½¢çŠ¶ä¸º(batch_size, num_classes)çš„PyTorchå¼ é‡ï¼Œè¡¨ç¤ºå›¾åƒåˆ†ç±»æ¨¡å‹çš„è¾“å‡ºã€‚
         """
-         # ¾í»ı²Ù×÷
+         # å·ç§¯æ“ä½œ
         x = self.conv(x)
-        # ReLU¼¤»îº¯Êı
+        # ReLUæ¿€æ´»å‡½æ•°
         x = torch.relu(x)
-        # Æ½¾ù³Ø»¯²Ù×÷
+        # å¹³å‡æ± åŒ–æ“ä½œ
         x = nn.functional.avg_pool2d(x, 2)
-        # Õ¹Æ½²Ù×÷
+        # å±•å¹³æ“ä½œ
         x = x.view(x.size(0), -1)
-        # ÏßĞÔ±ä»»
+        # çº¿æ€§å˜æ¢
         out = self.fc(x)
         return out

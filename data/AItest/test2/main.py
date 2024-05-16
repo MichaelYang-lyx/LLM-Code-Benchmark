@@ -4,39 +4,39 @@ import torchvision
 import torchvision.transforms as transforms
 from solution import ImageClassifier
 def main():
-    # ¶¨Òå³¬²ÎÊı
-    input_size = 3  # ÊäÈëµÄÎ¬¶È£¨¶ÔÓÚ²ÊÉ«Í¼Ïñ£¬Í¨³£ÊÇ3£©
-    num_classes = 10  # Êä³öµÄÎ¬¶È£¨¶ÔÓÚCIFAR-10Êı¾İ¼¯£¬ÓĞ10¸öÀà±ğ£©
-    num_epochs = 3  # ÑµÁ·µÄÂÖÊı
-    batch_size = 100  # Ã¿¸öÅú´ÎµÄÑù±¾ÊıÁ¿
-    learning_rate = 0.001  # Ñ§Ï°ÂÊ
+    # å®šä¹‰è¶…å‚æ•°
+    input_size = 3  # è¾“å…¥çš„ç»´åº¦ï¼ˆå¯¹äºå½©è‰²å›¾åƒï¼Œé€šå¸¸æ˜¯3ï¼‰
+    num_classes = 10  # è¾“å‡ºçš„ç»´åº¦ï¼ˆå¯¹äºCIFAR-10æ•°æ®é›†ï¼Œæœ‰10ä¸ªç±»åˆ«ï¼‰
+    num_epochs = 3  # è®­ç»ƒçš„è½®æ•°
+    batch_size = 100  # æ¯ä¸ªæ‰¹æ¬¡çš„æ ·æœ¬æ•°é‡
+    learning_rate = 0.001  # å­¦ä¹ ç‡
 
-    # ¼ÓÔØCIFAR-10Êı¾İ¼¯
+    # åŠ è½½CIFAR-10æ•°æ®é›†
     transform = transforms.Compose([transforms.ToTensor()])
     train_dataset = torchvision.datasets.CIFAR10(root='./data/AItest/data', train=True, download=True, transform=transform)
     train_loader = torch.utils.data.DataLoader(train_dataset, batch_size=batch_size, shuffle=True)
 
-    # ¶¨ÒåÄ£ĞÍ
+    # å®šä¹‰æ¨¡å‹
     model = ImageClassifier(input_size, num_classes)
 
-    # ¶¨ÒåËğÊ§º¯ÊıºÍÓÅ»¯Æ÷
+    # å®šä¹‰æŸå¤±å‡½æ•°å’Œä¼˜åŒ–å™¨
     criterion = nn.CrossEntropyLoss()
     optimizer = torch.optim.Adam(model.parameters(), lr=learning_rate)
 
-    # ÑµÁ·Ä£ĞÍ
+    # è®­ç»ƒæ¨¡å‹
     for epoch in range(num_epochs):
         for i, (images, labels) in enumerate(train_loader):
-            # Ç°Ïò´«²¥
+            # å‰å‘ä¼ æ’­
             outputs = model(images)
             loss = criterion(outputs, labels)
             
-            # ·´Ïò´«²¥ºÍÓÅ»¯
+            # åå‘ä¼ æ’­å’Œä¼˜åŒ–
             optimizer.zero_grad()
             loss.backward()
             optimizer.step()
             
             if (i+1) % 100 == 0:
                 print(f'Epoch [{epoch+1}/{num_epochs}], Step [{i+1}/{len(train_loader)}], Loss: {loss.item()}')
-    print("×îºóµÄLoss:",loss.item())
+    print("æœ€åçš„Loss:",loss.item())
     assert loss.item() < 2, "Loss is not less than 2"
     return 1
