@@ -7,11 +7,11 @@ class LinearRegression(nn.Module):
 
     def forward(self, x):
         """
-        è¾“å…¥:
-        - x: ä¸€ä¸ªå½¢çŠ¶ä¸º(batch_size, input_size)çš„PyTorchå¼ é‡ã€‚1111
+        ÊäÈë:
+        - x: Ò»¸öĞÎ×´Îª(batch_size, input_size)µÄPyTorchÕÅÁ¿¡£1111
 
-        è¾“å‡º:
-        - out: ä¸€ä¸ªå½¢çŠ¶ä¸º(batch_size, output_size)çš„PyTorchå¼ é‡ï¼Œè¡¨ç¤ºçº¿æ€§å›å½’æ¨¡å‹çš„è¾“å‡ºã€‚
+        Êä³ö:
+        - out: Ò»¸öĞÎ×´Îª(batch_size, output_size)µÄPyTorchÕÅÁ¿£¬±íÊ¾ÏßĞÔ»Ø¹éÄ£ĞÍµÄÊä³ö¡£
         """
         out = self.linear(x)
         return out

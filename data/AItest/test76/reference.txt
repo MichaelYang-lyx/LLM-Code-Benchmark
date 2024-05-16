@@ -1,0 +1,3 @@
+def is_simple_power(x, n):
+    a = abs(a)
+    return int(round(a ** (1. / 3))) ** 3 == a

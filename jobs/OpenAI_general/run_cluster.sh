@@ -11,7 +11,6 @@ python ./process_cluster.py
 exit
 EOF
 
-
 # 删除容器
 docker stop AITest
 docker rm AITest

@@ -3,45 +3,40 @@ import torch.nn as nn
 import torchvision
 import torchvision.transforms as transforms
 from solution import ImageClassifier
-
-
 def main():
-    # å®šä¹‰è¶…å‚æ•°
-    input_size = 3  # è¾“å…¥çš„ç»´åº¦ï¼ˆå¯¹äºå½©è‰²å›¾åƒï¼Œé€šå¸¸æ˜¯3ï¼‰
-    num_classes = 10  # è¾“å‡ºçš„ç»´åº¦ï¼ˆå¯¹äºCIFAR-10æ•°æ®é›†ï¼Œæœ‰10ä¸ªç±»åˆ«ï¼‰
-    num_epochs = 3  # è®­ç»ƒçš„è½®æ•°
-    batch_size = 100  # æ¯ä¸ªæ‰¹æ¬¡çš„æ ·æœ¬æ•°é‡
-    learning_rate = 0.001  # å­¦ä¹ ç‡
+    # ¶¨Òå³¬²ÎÊı
+    input_size = 3  # ÊäÈëµÄÎ¬¶È£¨¶ÔÓÚ²ÊÉ«Í¼Ïñ£¬Í¨³£ÊÇ3£©
+    num_classes = 10  # Êä³öµÄÎ¬¶È£¨¶ÔÓÚCIFAR-10Êı¾İ¼¯£¬ÓĞ10¸öÀà±ğ£©
+    num_epochs = 3  # ÑµÁ·µÄÂÖÊı
+    batch_size = 100  # Ã¿¸öÅú´ÎµÄÑù±¾ÊıÁ¿
+    learning_rate = 0.001  # Ñ§Ï°ÂÊ
 
-    # åŠ è½½CIFAR-10æ•°æ®é›†
+    # ¼ÓÔØCIFAR-10Êı¾İ¼¯
     transform = transforms.Compose([transforms.ToTensor()])
-    train_dataset = torchvision.datasets.CIFAR10(
-        root='./data/AItest/data', train=True, download=True, transform=transform)
-    train_loader = torch.utils.data.DataLoader(
-        train_dataset, batch_size=batch_size, shuffle=True)
+    train_dataset = torchvision.datasets.CIFAR10(root='./data/AItest/data', train=True, download=True, transform=transform)
+    train_loader = torch.utils.data.DataLoader(train_dataset, batch_size=batch_size, shuffle=True)
 
-    # å®šä¹‰æ¨¡å‹
+    # ¶¨ÒåÄ£ĞÍ
     model = ImageClassifier(input_size, num_classes)
 
-    # å®šä¹‰æŸå¤±å‡½æ•°å’Œä¼˜åŒ–å™¨
+    # ¶¨ÒåËğÊ§º¯ÊıºÍÓÅ»¯Æ÷
     criterion = nn.CrossEntropyLoss()
     optimizer = torch.optim.Adam(model.parameters(), lr=learning_rate)
 
-    # è®­ç»ƒæ¨¡å‹
+    # ÑµÁ·Ä£ĞÍ
     for epoch in range(num_epochs):
         for i, (images, labels) in enumerate(train_loader):
-            # å‰å‘ä¼ æ’­
+            # Ç°Ïò´«²¥
             outputs = model(images)
             loss = criterion(outputs, labels)
-
-            # åå‘ä¼ æ’­å’Œä¼˜åŒ–
+            
+            # ·´Ïò´«²¥ºÍÓÅ»¯
             optimizer.zero_grad()
             loss.backward()
             optimizer.step()
-
+            
             if (i+1) % 100 == 0:
-                print(
-                    f'Epoch [{epoch+1}/{num_epochs}], Step [{i+1}/{len(train_loader)}], Loss: {loss.item()}')
-    print("æœ€åçš„Loss:", loss.item())
+                print(f'Epoch [{epoch+1}/{num_epochs}], Step [{i+1}/{len(train_loader)}], Loss: {loss.item()}')
+    print("×îºóµÄLoss:",loss.item())
     assert loss.item() < 2, "Loss is not less than 2"
-    return 1.0
+    return 1
