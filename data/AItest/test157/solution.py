@@ -1,22 +1,10 @@
 
 def find_max(words):
-    max_unique_word = ""
-    max_unique_count = 0
-
-    # Sorts words in reverse lexicographical order
-    words.sort(reverse=True)
-
+    max_word = ""
+    max_unique_chars = 0
     for word in words:
-        unique_chars = set(word)
-    
-        # If the current word has more unique characters or 
-        # if it has the same amount but is earlier in lexicographical order
-        if len(unique_chars) > max_unique_count or (len(unique_chars) == max_unique_count and word < max_unique_word):
-            max_unique_word = word
-            max_unique_count = len(unique_chars)
-
-    return max_unique_word
-
-print(find_max(["name", "of", "string"]))  # Outputs: 'string'
-print(find_max(["name", "enam", "game"]))  # Outputs: 'enam'
-print(find_max(["aaaaaaa", "bb" ,"cc"]))  # Outputs: 'aaaaaaa'
+        unique_chars = len(set(word))
+        if unique_chars > max_unique_chars or (unique_chars == max_unique_chars and word < max_word):
+            max_word = word
+            max_unique_chars = unique_chars
+    return max_word

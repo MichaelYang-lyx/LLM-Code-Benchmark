@@ -1,9 +1,14 @@
 
 def move_one_ball(arr):
-    if not arr: return True
+    if not arr:
+        return True
     sorted_arr = sorted(arr)
-    for i in range(len(arr)):
+    n = len(arr)
+    for i in range(n):
         if arr == sorted_arr:
             return True
-        arr.insert(0, arr.pop())
+        arr = [arr[-1]] + arr[:-1]
     return False
+
+print(move_one_ball([3, 4, 5, 1, 2]))  # Output: True
+print(move_one_ball([3, 5, 4, 1, 2]))  # Output: False

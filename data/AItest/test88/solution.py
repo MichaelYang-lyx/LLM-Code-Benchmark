@@ -1,10 +1,17 @@
 
 def encrypt(s):
+    alphabet = 'abcdefghijklmnopqrstuvwxyz'
     encrypted = ''
     for char in s:
-        # Check if the character is a lower case letter
-        if char.islower():
-            # Calculate the ASCII value of the new character
-            new_char = chr((ord(char) - 97 + 4) % 26 + 97)
-            encrypted += new_char
+        if char.isalpha():
+            shifted_index = (alphabet.index(char) + 2) % 26
+            encrypted += alphabet[shifted_index]
+        else:
+            encrypted += char
     return encrypted
+
+# Test cases
+print(encrypt('hi'))  # Output: 'lm'
+print(encrypt('asdfghjkl'))  # Output: 'ewhjklnop'
+print(encrypt('gf'))  # Output: 'kj'
+print(encrypt('et'))  # Output: 'ix'

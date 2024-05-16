@@ -1,8 +1,10 @@
 
+import math
+
 def iscube(a):
     '''
     Write a function that takes an integer a and returns True 
-    if this ingeger is a cube of some integer number.
+    if this integer is a cube of some integer number.
     Note: you may assume the input is always valid.
     Examples:
     iscube(1) ==> True
@@ -12,5 +14,7 @@ def iscube(a):
     iscube(0) ==> True
     iscube(180) ==> False
     '''
-    cubic_root = round(abs(a) ** (1 / 3), 12)
-    return cubic_root == round(cubic_root)
+    if a < 0:
+        a = abs(a)
+    x = round(a ** (1/3))
+    return x ** 3 == a

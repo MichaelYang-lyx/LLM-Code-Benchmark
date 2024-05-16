@@ -6,23 +6,17 @@ def is_sorted(lst):
     number, return False. Assume no negative numbers and only integers.
 
     Examples
-    is_sorted([5]) => True
-    is_sorted([1, 2, 3, 4, 5]) => True
-    is_sorted([1, 3, 2, 4, 5]) => False
-    is_sorted([1, 2, 3, 4, 5, 6]) => True
-    is_sorted([1, 2, 3, 4, 5, 6, 7]) => True
-    is_sorted([1, 3, 2, 4, 5, 6, 7]) => False
-    is_sorted([1, 2, 2, 3, 3, 4]) => True
-    is_sorted([1, 2, 2, 2, 3, 4]) => False
+    is_sorted([5]) # True
+    is_sorted([1, 2, 3, 4, 5]) # True
+    is_sorted([1, 3, 2, 4, 5]) # False
+    is_sorted([1, 2, 3, 4, 5, 6]) # True
+    is_sorted([1, 2, 3, 4, 5, 6, 7]) # True
+    is_sorted([1, 3, 2, 4, 5, 6, 7]) # False
+    is_sorted([1, 2, 2, 3, 3, 4]) # True
+    is_sorted([1, 2, 2, 2, 3, 4]) # False
     '''
-
-    # check if list is sorted in ascending order
-    if lst != sorted(lst):
+    sorted_lst = sorted(lst)
+    if sorted_lst != lst and len(set(lst)) == len(lst):
+        return True
+    else:
         return False
-
-    # check if there is more than one duplicate of the same number
-    for i in range(len(lst) - 1):
-        if lst[i] == lst[i + 1] and lst.count(lst[i]) > 1:
-            return False
-
-    return True

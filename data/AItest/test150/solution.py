@@ -1,7 +1,7 @@
 
 def double_the_difference(lst):
-    """
-    Given a list of numbers, return the sum of squares of the numbers
-    in the list that are odd. Ignore numbers that are negative or not integers.
-    """
-    return sum(x**2 for x in lst if isinstance(x, int) and x > 0 and x % 2 != 0)
+    sum_of_squares = 0
+    for num in lst:
+        if num > 0 and num % 2 != 0 and isinstance(num, int):
+            sum_of_squares += num ** 2
+    return sum_of_squares

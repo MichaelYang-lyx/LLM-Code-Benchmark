@@ -1,17 +1,11 @@
 
-def correct_bracketing(brackets: str) -> bool:
+def correct_bracketing(brackets: str):
     stack = []
     for bracket in brackets:
-        if bracket == '<':  
-            stack.append(bracket)  
-        else: # is '>'
-            if len(stack) == 0:
+        if bracket == "<":
+            stack.append(bracket)
+        elif bracket == ">":
+            if not stack:
                 return False
             stack.pop()
-    return len(stack) == 0
-
-# Testing
-print(correct_bracketing("<"))
-print(correct_bracketing("<>"))
-print(correct_bracketing("<<><>>"))
-print(correct_bracketing("><<>"))
+    return not stack

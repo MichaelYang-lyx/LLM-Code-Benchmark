@@ -8,10 +8,6 @@ def monotonic(l: list):
     >>> monotonic([4, 1, 0, -10])
     True
     """
-    if len(l) < 2:
-        return True
-    is_increasing = l[1] > l[0]
-    for i in range(2, len(l)):
-        if (l[i] > l[i-1]) != is_increasing:
-            return False
-    return True
+    increasing = all(l[i] <= l[i + 1] for i in range(len(l) - 1))
+    decreasing = all(l[i] >= l[i + 1] for i in range(len(l) - 1))
+    return increasing or decreasing

@@ -6,12 +6,7 @@ def bf(planet1, planet2):
     else:
         planet1_index = planets.index(planet1)
         planet2_index = planets.index(planet2)
-        if planet1_index < planet2_index:
-            return tuple(planets[planet1_index+1:planet2_index])
-        else:
-            return tuple(planets[planet2_index+1:planet1_index])
-
-# Test the function with example cases
-print(bf("Jupiter", "Neptune")) # it should return: ("Saturn", "Uranus")
-print(bf("Earth", "Mercury")) # it should return: ("Venus", )
-print(bf("Mercury", "Uranus")) # it should return: ("Venus", "Earth", "Mars", "Jupiter", "Saturn")
+        start_index = min(planet1_index, planet2_index) + 1
+        end_index = max(planet1_index, planet2_index)
+        result = tuple(planets[start_index:end_index])
+        return result

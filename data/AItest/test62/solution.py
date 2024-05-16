@@ -1,21 +1,24 @@
 
-def fibfib(n: int, memo={0: 0, 1: 0, 2: 1}) -> int:
-    """The FibFib number sequence is a sequence similar to the Fibbonacci sequnece 
-    that's defined as follows:
-    fibfib(0) == 0
-    fibfib(1) == 0
-    fibfib(2) == 1
-    fibfib(n) == fibfib(n-1) + fibfib(n-2) + fibfib(n-3).
-    Please write a function to efficiently compute the n-th element 
-    of the fibfib number sequence.
-	
-    >>> fibfib(1)
-    0
-    >>> fibfib(5)
-    4
-    >>> fibfib(8)
-    24
-    """
-    if n not in memo:
-        memo[n] = fibfib(n-1, memo) + fibfib(n-2, memo) + fibfib(n-3, memo)
-    return memo[n]
+def fibfib(n: int):
+    if n == 0:
+        return 0
+    elif n == 1:
+        return 0
+    elif n == 2:
+        return 1
+    else:
+        fibfib_n_minus_1 = 1
+        fibfib_n_minus_2 = 0
+        fibfib_n_minus_3 = 0
+        result = 0
+        for i in range(3, n + 1):
+            result = fibfib_n_minus_1 + fibfib_n_minus_2 + fibfib_n_minus_3
+            fibfib_n_minus_3 = fibfib_n_minus_2
+            fibfib_n_minus_2 = fibfib_n_minus_1
+            fibfib_n_minus_1 = result
+        return result
+
+# Test cases
+print(fibfib(1)) # Output: 0
+print(fibfib(5)) # Output: 4
+print(fibfib(8)) # Output: 24

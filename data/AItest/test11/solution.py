@@ -1,7 +1,7 @@
 
 from typing import List, Tuple
 from functools import reduce
-import operator
+from operator import mul
 
 def sum_product(numbers: List[int]) -> Tuple[int, int]:
     """ For a given list of integers, return a tuple consisting of a sum and a product of all the integers in a list.
@@ -11,7 +11,6 @@ def sum_product(numbers: List[int]) -> Tuple[int, int]:
     >>> sum_product([1, 2, 3, 4])
     (10, 24)
     """
-    total_sum = sum(numbers) if numbers else 0
-    total_product = reduce(operator.mul, numbers, 1) if numbers else 1
-    
-    return total_sum, total_product
+    if not numbers:
+        return 0, 1
+    return sum(numbers), reduce(mul, numbers)

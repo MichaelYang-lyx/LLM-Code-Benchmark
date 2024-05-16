@@ -1,13 +1,13 @@
 
 def median(l: list):
+    """Return median of elements in the list l."""
+    l.sort()
     n = len(l)
-    if n == 0:
-        raise ValueError("The list is empty")
-    sorted_l = sorted(l)
-    mid = n // 2
-    if n % 2 == 1:
-        # if odd, return the middle value
-        return sorted_l[mid]
+    if n % 2 == 0:
+        return (l[n//2 - 1] + l[n//2]) / 2
     else:
-        # if even, return the average of the two middle values
-        return (sorted_l[mid - 1] + sorted_l[mid]) / 2
+        return l[n//2]
+
+# Test cases
+print(median([3, 1, 2, 4, 5]))  # Output: 3
+print(median([-10, 4, 6, 1000, 10, 20]))  # Output: 15.0

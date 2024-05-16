@@ -16,6 +16,7 @@ def pairs_sum_to_zero(l):
     False
     """
     for i in range(len(l)):
-        if -l[i] in l[i+1:]:
-            return True
+        for j in range(i+1, len(l)):
+            if l[i] + l[j] == 0:
+                return True
     return False

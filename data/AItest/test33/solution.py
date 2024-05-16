@@ -1,17 +1,23 @@
 
+import math
+
 def is_prime(n):
-    """Return true if a given number is prime, and false otherwise."""
     if n <= 1:
         return False
-    elif n <= 3:
+    if n == 2:
         return True
-    elif n % 2 == 0 or n % 3 == 0:
+    if n % 2 == 0:
         return False
-
-    i = 5
-    while i * i <= n:
-        if n % i == 0 or n % (i + 2) == 0:
+    for i in range(3, int(math.sqrt(n)) + 1, 2):
+        if n % i == 0:
             return False
-        i += 6
-
     return True
+
+# Test cases
+print(is_prime(6))    # Output: False
+print(is_prime(101))  # Output: True
+print(is_prime(11))   # Output: True
+print(is_prime(13441))# Output: True
+print(is_prime(61))   # Output: True
+print(is_prime(4))    # Output: False
+print(is_prime(1))    # Output: False

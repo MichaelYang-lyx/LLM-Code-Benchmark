@@ -1,11 +1,9 @@
 
 def get_row(lst, x):
-    coordinates = []
+    result = []
     for i in range(len(lst)):
         for j in range(len(lst[i])):
             if lst[i][j] == x:
-                coordinates.append((i,j))
-                
-    coordinates.sort(key=lambda x: (x[0], -x[1]))
-    
-    return coordinates
+                result.append((i, j))
+    result.sort(key=lambda coord: (coord[0], -coord[1]))
+    return result

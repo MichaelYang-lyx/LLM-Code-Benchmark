@@ -1,34 +1,34 @@
 
 def numerical_letter_grade(grades):
-    def get_letter_grade(gpa):
+    letter_grades = []
+    for gpa in grades:
         if gpa == 4.0:
-            return 'A+'
+            letter_grades.append('A+')
         elif gpa > 3.7:
-            return 'A'
+            letter_grades.append('A')
         elif gpa > 3.3:
-            return 'A-'
+            letter_grades.append('A-')
         elif gpa > 3.0:
-            return 'B+'
+            letter_grades.append('B+')
         elif gpa > 2.7:
-            return 'B'
+            letter_grades.append('B')
         elif gpa > 2.3:
-            return 'B-'
+            letter_grades.append('B-')
         elif gpa > 2.0:
-            return 'C+'
+            letter_grades.append('C+')
         elif gpa > 1.7:
-            return 'C'
+            letter_grades.append('C')
         elif gpa > 1.3:
-            return 'C-'
+            letter_grades.append('C-')
         elif gpa > 1.0:
-            return 'D+'
+            letter_grades.append('D+')
         elif gpa > 0.7:
-            return 'D'
+            letter_grades.append('D')
         elif gpa > 0.0:
-            return 'D-'
+            letter_grades.append('D-')
         else:
-            return 'E'
+            letter_grades.append('E')
+    return letter_grades
 
-    return [get_letter_grade(gpa) for gpa in grades]
-
-# example usage
-print(numerical_letter_grade([4.0, 3, 1.7, 2, 3.5]))  # ['A+', 'B', 'C-', 'C', 'A-']
+# Example usage
+print(numerical_letter_grade([4.0, 3, 1.7, 2, 3.5]))  # Output: ['A+', 'B', 'C-', 'C', 'A-']

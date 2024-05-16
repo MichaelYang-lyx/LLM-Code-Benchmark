@@ -1,12 +1,7 @@
 
 def search(lst):
-    from collections import Counter
-
-    dict_count = Counter(lst)
-    greatest = -1
-
-    for num, cnt in dict_count.items():
-        if num > greatest and cnt >= num:
-            greatest = num
-    
-    return greatest
+    max_val = -1
+    for num in set(lst):
+        if num > max_val and lst.count(num) >= num:
+            max_val = num
+    return max_val

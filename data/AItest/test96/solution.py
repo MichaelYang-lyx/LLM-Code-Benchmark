@@ -9,14 +9,4 @@ def multiply(a, b):
     multiply(2020, 1851) should return 0.
     multiply(14,-15) should return 20.
     """
-
-    # Handle end cases with both positive and negative numbers
-    a_unit = abs(a) % 10
-    b_unit = abs(b) % 10
-
-    return a_unit * b_unit
-
-print(multiply(148, 412))  # 16
-print(multiply(19, 28))  # 72
-print(multiply(2020, 1851))  # 0
-print(multiply(14, -15))  # 20
+    return abs(a % 10) * abs(b % 10)

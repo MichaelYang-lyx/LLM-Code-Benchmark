@@ -1,18 +1,15 @@
 
 def pluck(arr):
-    smallest_even = None
-    smallest_index = -1
-
-    for index, val in enumerate(arr):
-        if val % 2 == 0: # If val is even
-            if smallest_even is None:
-                smallest_even = val
-                smallest_index = index
-            elif val < smallest_even:
-                smallest_even = val
-                smallest_index = index
-                
-    if smallest_even is not None:
-        return [smallest_even, smallest_index]
-    else:
+    even_nodes = [(value, index) for index, value in enumerate(arr) if value % 2 == 0]
+    
+    if not even_nodes:
         return []
+    
+    min_even = min(even_nodes, key=lambda x: (x[0], x[1]))
+    return [min_even[0], min_even[1]]
+
+# Test the function
+print(pluck([4,2,3]))  # Output: [2, 1]
+print(pluck([1,2,3]))  # Output: [2, 1]
+print(pluck([]))  # Output: []
+print(pluck([5, 0, 3, 0, 4, 2]))  # Output: [0, 1]

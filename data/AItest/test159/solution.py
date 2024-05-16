@@ -2,7 +2,7 @@
 def do_algebra(operator, operand):
     """
     Given two lists operator, and operand. The first list has basic algebra operations, and 
-    the second list is a list of integers. Use the two given lists to build the algebraic 
+    the second list is a list of integers. Use the two given lists to build the algebric 
     expression and return the evaluation of this expression.
 
     The basic algebra operations:
@@ -24,14 +24,10 @@ def do_algebra(operator, operand):
         Operator list has at least one operator, and operand list has at least two operands.
 
     """
+    
     expression = str(operand[0])
-
-    for i in range(1, len(operand)):
-        expression += ' ' + operator[i - 1] + ' ' + str(operand[i])
-
+    
+    for i in range(len(operator)):
+        expression += ' ' + operator[i] + ' ' + str(operand[i+1])
+    
     return eval(expression)
-
-operator = ['+', '*', '-']
-operand = [2, 3, 4, 5]
-
-print(do_algebra(operator, operand)) # Output: 9

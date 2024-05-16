@@ -5,8 +5,8 @@ def will_it_fly(q, w):
     else:
         return False
 
-# Test the function with the provided examples
-print(will_it_fly([1, 2], 5))  # Should print: False 
-print(will_it_fly([3, 2, 3], 1))  # Should print: False
-print(will_it_fly([3, 2, 3], 9))  # Should print: True
-print(will_it_fly([3], 5))   # Should print: True
+# Test cases
+print(will_it_fly([1, 2], 5))  # False
+print(will_it_fly([3, 2, 3], 1))  # False
+print(will_it_fly([3, 2, 3], 9))  # True
+print(will_it_fly([3], 5))  # True

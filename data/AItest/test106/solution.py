@@ -1,14 +1,16 @@
 
 def even_odd_palindrome(n):
-    if not(1 <= n <= 10**3):
-        return "Input should be in the range from 1 to 10^3"
-    
-    even = 0
-    odd = 0
+    def is_palindrome(num):
+        return str(num) == str(num)[::-1]
+
+    even_count = 0
+    odd_count = 0
+
     for i in range(1, n+1):
-        if str(i) == str(i)[::-1]:
-            if i % 2 == 0 :
-                even += 1
+        if is_palindrome(i):
+            if i % 2 == 0:
+                even_count += 1
             else:
-                odd += 1
-    return even, odd
+                odd_count += 1
+
+    return (even_count, odd_count)

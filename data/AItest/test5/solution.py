@@ -8,6 +8,4 @@ def truncate_number(number: float) -> float:
     >>> truncate_number(3.5)
     0.5
     """
-    integer_part = int(number)
-    decimal_part = number - integer_part
-    return decimal_part
+    return number - int(number)

@@ -1,11 +1,17 @@
 
-def count_up_to(n):
-    def is_prime(n):
-        if n < 2:
-            return False
-        for i in range(2, int(n**0.5) + 1):
-            if n % i == 0:
-                return False
-        return True
+import math
 
-    return [x for x in range(2, n) if is_prime(x)]
+def is_prime(num):
+    if num < 2:
+        return False
+    for i in range(2, int(math.sqrt(num)) + 1):
+        if num % i == 0:
+            return False
+    return True
+
+def count_up_to(n):
+    primes = []
+    for i in range(2, n):
+        if is_prime(i):
+            primes.append(i)
+    return primes

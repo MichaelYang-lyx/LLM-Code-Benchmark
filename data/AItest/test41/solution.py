@@ -1,5 +1,5 @@
 
-def car_race_collision(n: int) -> int:
+def car_race_collision(n: int):
     """
     Imagine a road that's a perfectly straight infinitely long line.
     n cars are driving left to right;  simultaneously, a different set of n cars
@@ -11,4 +11,4 @@ def car_race_collision(n: int) -> int:
 
     This function outputs the number of such collisions.
     """
-    return n * n
+    return n * (n - 1) // 2

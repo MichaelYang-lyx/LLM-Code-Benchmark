@@ -1,10 +1,15 @@
 
 def solve(s):
-    if any(char.isalpha() for char in s):
-        return "".join(char.swapcase() if char.isalpha() else char for char in s)
+    result = ""
+    for char in s:
+        if char.isalpha():
+            if char.islower():
+                result += char.upper()
+            else:
+                result += char.lower()
+        else:
+            result += char
+    if result.isalpha():
+        return result.swapcase()
     else:
-        return s[::-1]
-
-print(solve("1234"))  # Output: "4321"
-print(solve("ab"))  # Output: "AB"
-print(solve("#a@C"))  # Output: "#A@c"
+        return result[::-1]

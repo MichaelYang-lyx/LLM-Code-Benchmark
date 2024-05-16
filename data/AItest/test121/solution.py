@@ -13,15 +13,17 @@ def add_elements(arr, k):
         1. 1 <= len(arr) <= 100
         2. 1 <= k <= len(arr)
     """
-    # early exit in case k < 1
-    if k < 1:
-        return 0
+    sum_elements = 0
+    count = 0
+    for num in arr:
+        if count >= k:
+            break
+        if len(str(num)) <= 2:
+            sum_elements += num
+            count += 1
+    return sum_elements
 
-    # limit the array to first k elements
-    arr = arr[:k]
-    
-    # filter the elements with at most two digits
-    short_nums = list(filter(lambda x: len(str(abs(x))) <= 2, arr))
-    
-    # return the sum of these elements
-    return sum(short_nums)
+# Test the function
+arr = [111, 21, 3, 4000, 5, 6, 7, 8, 9]
+k = 4
+print(add_elements(arr, k))  # Output: 24

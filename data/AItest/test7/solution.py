@@ -1,5 +1,5 @@
 
-from typing import List
+import statistics
 
 def mean_absolute_deviation(numbers: List[float]) -> float:
     """ For a given list of input numbers, calculate Mean Absolute Deviation
@@ -10,8 +10,6 @@ def mean_absolute_deviation(numbers: List[float]) -> float:
     >>> mean_absolute_deviation([1.0, 2.0, 3.0, 4.0])
     1.0
     """
-    # Calculate the mean of the numbers
-    mean = sum(numbers) / len(numbers)
-    
-    # Compute absolute differences from the mean and return their average
-    return sum(abs(x - mean) for x in numbers) / len(numbers)
+    mean = statistics.mean(numbers)
+    absolute_deviations = [abs(x - mean) for x in numbers]
+    return statistics.mean(absolute_deviations)

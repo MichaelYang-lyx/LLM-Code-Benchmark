@@ -11,8 +11,7 @@ def is_palindrome(text: str):
     >>> is_palindrome('zbcd')
     False
     """
-    # convert to lower case, remove non-alpha characters
-    text = ''.join(char for char in text if char.isalpha()).lower()
-    
-    # check if text is the same when reversed
-    return text == text[::-1]
+    text = text.lower()  # Convert the text to lowercase for case-insensitive comparison
+    text = ''.join(e for e in text if e.isalnum())  # Remove any non-alphanumeric characters
+
+    return text == text[::-1]  # Check if the text is equal to its reverse

@@ -7,12 +7,8 @@ def remove_duplicates(numbers: List[int]) -> List[int]:
     >>> remove_duplicates([1, 2, 3, 2, 4])
     [1, 3, 4]
     """
-    result = []
-    counts = {}
-    for number in numbers:
-        if number in counts:
-            counts[number] += 1
-        else:
-            counts[number] = 1
-            result.append(number)
-    return [number for number in result if counts[number] == 1]
+    unique_numbers = []
+    for num in numbers:
+        if numbers.count(num) == 1:
+            unique_numbers.append(num)
+    return unique_numbers

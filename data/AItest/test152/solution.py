@@ -1,26 +1,11 @@
 
 def Strongest_Extension(class_name, extensions):
-    """You will be given the name of a class (a string) and a list of extensions.
-    The extensions are to be used to load additional classes to the class. The
-    strength of the extension is as follows: Let CAP be the number of the uppercase
-    letters in the extension's name, and let SM be the number of lowercase letters 
-    in the extension's name, the strength is given by the fraction CAP - SM. 
-    You should find the strongest extension and return a string in this 
-    format: ClassName.StrongestExtensionName.
-    If there are two or more extensions with the same strength, you should
-    choose the one that comes first in the list.
-    For example, if you are given "Slices" as the class and a list of the
-    extensions: ['SErviNGSliCes', 'Cheese', 'StuFfed'] then you should
-    return 'Slices.SErviNGSliCes' since 'SErviNGSliCes' is the strongest extension 
-    (its strength is -1).
-    Example:
-    for Strongest_Extension('my_class', ['AA', 'Be', 'CC']) == 'my_class.AA'
-    """
+    def strength(extension):
+        CAP = sum(1 for c in extension if c.isupper())
+        SM = sum(1 for c in extension if c.islower())
+        return CAP - SM
 
-    strength = [(ext, sum(1 for char in ext if char.isupper()) - sum(1 for char in ext if char.islower())) for ext in extensions]
-    strongest_ext = max(strength, key=lambda x: x[1])[0]
-    return f'{class_name}.{strongest_ext}'
+    strongest_extension = max(extensions, key=strength)
+    return f"{class_name}.{strongest_extension}"
 
-# Test Cases
-print(Strongest_Extension('Slices', ['SErviNGSliCes', 'Cheese', 'StuFfed'])) # Expected 'Slices.SErviNGSliCes'
-print(Strongest_Extension('my_class', ['AA', 'Be', 'CC'])) # Expected 'my_class.AA'
+print(Strongest_Extension('my_class', ['AA', 'Be', 'CC']))

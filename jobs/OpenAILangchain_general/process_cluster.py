@@ -15,6 +15,7 @@ from components.Eval.ScoreCalculator import ScoreCalculator
 # ======
 
 conf = SparkConf().setAppName("AItest")
+# conf.set("spark.default.parallelism", "1")
 sc = SparkContext(conf=conf)
 spark = SparkSession(sc)
 
@@ -45,7 +46,6 @@ base_prompt = 'You are an assistant proficient in completing code.\nPlease enhan
     'Remember, you must answer within the framework of the given code, including the framework and outputting a complete code snippet (including import statements).\n' \
     'You should only focus on the code part and ignore environment configuration issues. Please respond in the format ```{language} {{code}}```.\n' \
     '[Code framework to be completed]: {question}\n'
-
 
 def infer(item):
 

@@ -8,5 +8,4 @@ def filter_by_prefix(strings: List[str], prefix: str) -> List[str]:
     >>> filter_by_prefix(['abc', 'bcd', 'cde', 'array'], 'a')
     ['abc', 'array']
     """
-    result_list = [string for string in strings if string.startswith(prefix)]
-    return result_list
+    return [s for s in strings if s.startswith(prefix)]

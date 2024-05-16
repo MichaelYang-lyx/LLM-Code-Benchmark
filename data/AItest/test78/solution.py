@@ -1,6 +1,7 @@
 
 def decimal_to_binary(decimal):
-    # Convert integer to binary and remove the prefix '0b'
-    binary_str = bin(decimal)[2:]
-    # Add 'db' at the beginning and end of the string
-    return "db" + binary_str + "db"
+    binary = bin(decimal)[2:]
+    return f"db{binary}db"
+
+print(decimal_to_binary(15))   # returns "db1111db"
+print(decimal_to_binary(32))   # returns "db100000db"

@@ -1,18 +1,8 @@
 
-import re
-
 def file_name_check(file_name):
-    splitted_file = file_name.split('.')
-    valid_extensions = ['txt', 'exe', 'dll']
-    
-    if len(splitted_file) != 2 or not splitted_file[0] or not splitted_file[0][0].isalpha() or splitted_file[1] not in valid_extensions:
+    import re
+    pattern = "^[a-zA-Z][a-zA-Z0-9]*\.[txt|exe|dll]{3}$"
+    if re.match(pattern, file_name) and file_name.count('.') == 1 and file_name.count('0') + file_name.count('1') + file_name.count('2') + file_name.count('3') + file_name.count('4') + file_name.count('5') + file_name.count('6') + file_name.count('7') + file_name.count('8') + file_name.count('9') <= 3:
+        return 'Yes'
+    else:
         return 'No'
-
-    digit_count = len([char for char in file_name if char.isdigit()])
-    if digit_count > 3:
-        return 'No'
-        
-    return 'Yes'
-    
-print(file_name_check("example.txt"))  # => 'Yes'
-print(file_name_check("1example.dll"))  # => 'No' (the name should start with a latin alphabet letter)

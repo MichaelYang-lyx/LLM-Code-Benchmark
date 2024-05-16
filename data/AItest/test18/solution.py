@@ -6,7 +6,6 @@ def count_distinct_characters(string: str) -> int:
     >>> count_distinct_characters('Jerry')
     4
     """
-    # Converting the string to lower case to handle case sensitivity
-    string = string.lower()
-    # Using set data type to eliminate duplicates and count the distinct characters
-    return len(set(string))
+    string = string.lower()  # Convert the string to lowercase to ignore case
+    distinct_chars = set(string)  # Use a set to store distinct characters
+    return len(distinct_chars)  # Return the number of distinct characters

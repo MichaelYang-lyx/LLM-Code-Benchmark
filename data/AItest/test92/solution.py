@@ -1,21 +1,14 @@
 
 def encode(message):
     encoded_message = ""
-
-    #defining vowels
     vowels = "aeiouAEIOU"
-    mapping = {v: chr(ord(v) + 2) for v in vowels}
-    
-    #iterating the case of each character
     for char in message:
-        if char.isalpha():
-            if char in vowels:
-                # replace vowels with the letter that appears 2 places ahead
-                encoded_message += mapping[char]
-            else:
-                # swap case of all other letters
-                encoded_message += char.swapcase()
+        if char.lower() in vowels:
+            encoded_message += chr(ord(char) + 2)
         else:
-            encoded_message += char
-
+            encoded_message += char.swapcase()
     return encoded_message
+
+# Test cases
+print(encode('test'))  # Output: TGST
+print(encode('This is a message'))  # Output: tHKS KS C MGSSCGG

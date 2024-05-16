@@ -1,17 +1,25 @@
 
-def prime_length(string):
-    def is_prime(num):
-        if num < 2:
-            return False
-        for i in range(2, num):
-            if num % i == 0:
-                return False
-        
+import math
+
+def is_prime(n):
+    if n <= 1:
+        return False
+    if n == 2:
         return True
+    if n > 2 and n % 2 == 0:
+        return False
+    max_divisor = math.floor(math.sqrt(n))
+    for d in range(3, max_divisor + 1, 2):
+        if n % d == 0:
+            return False
+    return True
 
-    return is_prime(len(string))
+def prime_length(string):
+    length = len(string)
+    return is_prime(length)
 
-print(prime_length('Hello')) # True
-print(prime_length('abcdcba')) # True
-print(prime_length('kittens')) # True
-print(prime_length('orange')) # False
+# Test cases
+print(prime_length('Hello'))  # Output: True
+print(prime_length('abcdcba'))  # Output: True
+print(prime_length('kittens'))  # Output: True
+print(prime_length('orange'))  # Output: False
