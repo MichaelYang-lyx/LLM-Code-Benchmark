@@ -7,7 +7,7 @@ class OpenAI:
     def __init__(self):
         load_dotenv()
         openai.api_type = "azure"
-        openai.base_url = "https://sensebench.openai.azure.com/openai/deployments/gpt-4/chat/completions?api-version=2023-07-01-preview"
+        openai.base_url = "your url"
         openai.api_version = "2023-07-01-preview"
         openai.api_key = os.getenv("OPENAI_API_KEY")
 
