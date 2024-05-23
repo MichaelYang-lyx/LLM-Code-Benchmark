@@ -1,13 +1,6 @@
 # LLM Code Capability Evaluation System
-
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg?style=flat-square)](#contributors-)
-<!-- ALL-CONTRIBUTORS-BADGE:END -->
-
-<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-
-[![All Contributors](https://img.shields.io/badge/all_contributors-0-orange.svg?style=flat-square)](#contributors-)
-
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 ## Introduction
@@ -111,8 +104,6 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <table>
   <tbody>
     <tr>
-      <td align="center" valign="top" width="14.28%"><a href="https://github.com/hareisland"><img src="https://avatars.githubusercontent.com/u/146825972?v=4?s=100" width="100px;" alt="Z.Shen"/><br /><sub><b>Z.Shen</b></sub></a><br /><a href="https://github.com/MichaelYang-lyx/LLM-Code-Benchmark/commits?author=hareisland" title="Code">💻</a></td>
-      <td align="center" valign="top" width="14.28%"><a href="https://github.com/JifengCHN"><img src="https://avatars.githubusercontent.com/u/158441842?v=4?s=100" width="100px;" alt="JifengCHN"/><br /><sub><b>JifengCHN</b></sub></a><br /><a href="https://github.com/MichaelYang-lyx/LLM-Code-Benchmark/commits?author=JifengCHN" title="Code">💻</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/MichaelYang-lyx"><img src="https://avatars.githubusercontent.com/u/111903735?v=4?s=100" width="100px;" alt="Michael"/><br /><sub><b>Michael</b></sub></a><br /><a href="https://github.com/MichaelYang-lyx/LLM-Code-Benchmark/commits?author=MichaelYang-lyx" title="Code">💻</a></td>
     </tr>
   </tbody>
