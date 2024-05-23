@@ -1,11 +1,14 @@
 # LLM Code Capability Evaluation System
+
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+
 [![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg?style=flat-square)](#contributors-)
+
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 ## Introduction
 
-Welcome to the LLM Code Capability Evaluation System! This innovative system is engineered to assess the coding prowess of language model algorithms. Utilizing the power of PySpark, it implements distributed computing to process and analyze extensive datasets with remarkable efficiency.
+Welcome to the LLM Code Capability Evaluation System! This innovative system is engineered to assess the coding prowess of language model algorithms. Utilizing the power of PySpark, it implements distributed computing to process and analyze extensive datasets with remarkable efficiency. This benchmark can help to evaluate LLM's code capability in higher level like CV and NLP tasks. Here is an example case: https://github.com/MichaelYang-lyx/LLM-Code-Benchmark/tree/main/data/AItest/test2.
 
 ## Evaluation Process
 
