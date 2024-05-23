@@ -1,0 +1,25 @@
+{
+  "projectName": "LLM-Code-Benchmark",
+  "projectOwner": "MichaelYang-lyx",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": true,
+  "commitConvention": "angular",
+  "contributors": [
+    {
+      "login": "hareisland",
+      "name": "Z.Shen",
+      "avatar_url": "https://avatars.githubusercontent.com/u/146825972?v=4",
+      "profile": "https://github.com/hareisland",
+      "contributions": [
+        "code"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "linkToUsage": true
+}
