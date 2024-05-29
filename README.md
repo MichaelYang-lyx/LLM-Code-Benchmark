@@ -8,7 +8,9 @@
 
 ## Introduction
 
-Welcome to the LLM Code Capability Evaluation System! This innovative system is engineered to assess the coding prowess of language model algorithms. Utilizing the power of PySpark, it implements distributed computing to process and analyze extensive datasets with remarkable efficiency. This benchmark can help to evaluate LLM's code capability in higher level like CV and NLP tasks. Here is an example case: https://github.com/MichaelYang-lyx/LLM-Code-Benchmark/tree/main/data/AItest/test2.
+As Large Language Models (LLM) continue to develop, their coding capabilities are increasingly being applied to specific scenarios in industrial production, such as AI tasks that require writing PyTorch code. However, the evaluation of this code's quality necessitates the setup of complex execution environments, which presents numerous challenges for code assessment. Our project, an innovative LLM evaluation system, is specifically designed to assess the code abilities of LLMs in complex, real-world coding environments. In order to tackle the intricate environmental demands, we have strategically utilized Docker containers to simulate the code running environment. Furthermore, to enhance operational efficiency, we have implemented task parallelism using Spark MapReduce and AWS EC2 clusters. By amalgamating the publicly available Humaneval dataset with our own custom-designed machine learning problems, we have integrated these test cases into our evaluation system, thereby creating a robust benchmark. We conducted experiments on several LLMs with our benchmark, the results indicate that GPT-4 outperforms Wenxin Yiyan, Zhipu and GPT-3.5 Turbo, which aligns with user experiences.
+
+This benchmark can help to evaluate LLM's code capability in higher level like CV and NLP tasks. Here is an example case: https://github.com/MichaelYang-lyx/LLM-Code-Benchmark/tree/main/data/AItest/test2.
 
 ## Evaluation Process
 
